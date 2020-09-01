@@ -19,6 +19,16 @@ This solution starter was created by technologists from IBM.
 
 ## 1. The Team
 
+* Denise Knorr - Product Manager
+* Boz Handy Bosman - AoT Master Inventor (AIF360)
+* Sam Hoffman - AIF360 Developer
+* Margriet Groenendijk - Data & AI Developer Advocate   
+* Hema Veeradhi - Red Hat Software Engineer    
+* Kate Tereshchenko - Cloud Data Scientist 
+* Ann Marie Fred - CFC Sentencing Reform Team 
+* Demi Ajayi - Prod Designer – AI Natural Language 
+* Otis Smart - AI Data Scientist - Machine Learning 
+
 ## 2. Overview
 
 ### Embrace Theme
@@ -127,17 +137,6 @@ Apart from HR hiring data, we can also apply the bias detection to the Judicial 
 
 
 
-
-
-
-
-
-
-
-## Overview
-This project is an effort to leverage technology to prevent, detect, and remediate bias and misrepresentation in the workplace, products, legal system and society. For corporations to succeed, it is critical to have Black representation at every level.
-
-Studies have shown that in order to get in company doors that Minority job applicants are “whitening” their resumes by deleting references to their race with the hope of boosting their shot at jobs, and recent research shows the strategy is paying off. According to Forbes, in fact, companies are more than twice as likely to call minority applicants for interviews if they submit whitened resumes than candidates who reveal their race — and this discriminatory practice is just as strong for businesses that claim to value diversity as those that don’t. According to the Harvard Business Review, it shouldn’t be surprising that most diversity programs aren’t increasing diversity. Despite a few new bells and whistles, courtesy of big data, companies are basically doubling down on the same approaches they’ve used since the 1960s—which often make things worse, not better. Firms have long relied on diversity training to reduce bias on the job, hiring tests and performance ratings to limit it in recruitment and promotions, and grievance systems to give employees a way to challenge managers. Those tools are designed to preempt lawsuits by policing managers’ thoughts and actions.
 
 
 
