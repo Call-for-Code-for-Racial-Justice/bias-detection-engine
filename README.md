@@ -31,7 +31,7 @@ This solution starter was created by technologists from IBM.
 
 ## 2. Overview
 
-### Embrace Theme
+
 #### IBM Racial Disparity & Bias Diagnostics Engine
 
 * Powered by IBM’s [AI Fairness 360](https://github.com/Trusted-AI/AIF360) sourced functionality
