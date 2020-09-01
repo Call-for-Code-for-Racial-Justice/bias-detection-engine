@@ -41,10 +41,6 @@ This solution starter was created by technologists from IBM.
 
 ### Problem statement
 
-Black employees do not advance at the rate and to the levels of influence in the workplace they should due to a lack of transparency around opportunities and implicit biases in recruiting, evaluation, mentorship and promotion processes.
-
-**Hill**: A recruiter can receive data driven recommendations of non-traditional applicants to reconsider and be confident in advocating for them to hiring managers. 
-
 A new class of “anti-bias / anti-Systemic Racism” solutions (aka Call for Code EmbRace solutions) strives to have outcomes that can be mathematically assessed and validated as “Bias Free” 
 
 1. This new class of solutions that prioritize the minimization of outcomes infected by implicit racial bias will need leading edge technology and newly developed interface protocols that can effectively serve as a universally accepted fair and “Credible Arbiter” of bias and other variables that might negatively contribute to racially-driven disparity in outcomes.
