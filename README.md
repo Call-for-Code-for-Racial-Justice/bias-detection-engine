@@ -30,8 +30,6 @@ This solution starter was created by technologists from IBM.
 * Otis Smart - AI Data Scientist - Machine Learning 
 
 ## 2. Overview
-
-
 #### IBM Racial Disparity & Bias Diagnostics Engine
 
 * Powered by IBM’s [AI Fairness 360](https://github.com/Trusted-AI/AIF360) sourced functionality
