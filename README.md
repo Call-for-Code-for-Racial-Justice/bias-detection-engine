@@ -6,7 +6,6 @@ This solution starter was created by technologists from IBM.
 
 1. [The Team](#1-the-team)
 2. [Overview](#2-overview)
-3. [Video](#3-video)
 4. [The idea](#4-the-idea)
 5. [How it works](#5-how-it-works)
 6. [Diagrams](#6-diagrams)
@@ -35,29 +34,25 @@ This solution starter was created by technologists from IBM.
 * Bias Engine diagnoses bias related causes for the disparity to recommend remediation
 * Bia Engine Monitors outcomes and measures alighment of outcoems to desired objective of being-a fair outcome and free of racially biased influence 
 
-### Problem statement
+### PROBLEMM STATEMENT - Reason why deploymen of this technology is so critial 
 
-A new class of “anti-bias / anti-Systemic Racism” solutions (aka Call for Code EmbRace solutions) strives to have outcomes that can be mathematically assessed and validated as “Bias Free” 
+A new class of “anti-bias / anti-Systemic Racism” solutions, apps and platforms (aka IBM's EmbACE Call-for-Code) strives to have outcomes that can be mathematically assessed, validated verifiabially attriuted to be “Bias-Free” 
 
-1. This new class of solutions that prioritize the minimization of outcomes infected by implicit racial bias will need leading edge technology and newly developed interface protocols that can effectively serve as a universally accepted fair and “Credible Arbiter” of bias and other variables that might negatively contribute to racially-driven disparity in outcomes.
+1. This new class of solutions that prioritize the minimization of outcomes infected by implicit racial bias will need leading edge technology and newly developed interface protocols to effectively serve as a universally accepted fair and “Credible Arbiter” of bias and other discrimininatory variables that might negatively contribute to negative racial disparity in outcomes associated with the objectives of the soltuion or app 
 
-2. Without validated and benchmarked models for consistent attribution and remediation of bias, the full range of new and innovative anti-bias solutions will have diminished ability to deliver outcomes that are universally seen as mathematically and repeatably accurate in diagnosing and remediating bias. 
-    *	A random / one-off approach to detecting and remediating bias will not be sufficient to drive outcomes accepted / acknowledged as bias-free across a large ecosystem of a new class of anti-bias solutions 
+2. Without validated and benchmarked models for consistent attribution and remediation of implicit racial bias, the full range of new and innovative anti-bias solutions will have diminished ability to deliver outcomes that can be universally seen as mathematically and repeatably accurate in diagnosing and remediating that racial bias. 
+    *	A random / one-off approach to detecting and remediating implicit racial bias will not be sufficient to drive outcomes accepted / acknowledged as bias-free across a large ecosystem of a new class of anti-bias solutions 
 
 3.	Furthering the problem is that effects of bias can be fed into a single solution’s outcomes via multiple inputs / steps in that single solution’s processes, while at the same time some steps or processes associated with the solution’s outcome may be mathematically bias-free or neutral.  
     *	This means that the bias diagnostics capabilities need to be sufficient to assess the *cumulative* effect of *multiple* sources of bias throughout the entire “process pipeline” within a single solution, so that if any single “bias-infected” input source or data set within the solution’s process pipeline goes undiagnosed, the outcome may still reflect elements of racial bias. In other words, neutral processes are not sufficient in-and-of themselves to prevent implicit racial bias from infecting a solution’s outcomes. 
   
-### How can Technology Help 
+### How IBM Technology can help Detect, Diagnois and Remediate Implicit Racial Bias 
 
 1. By leveraging existing (enhanced) IBM technologies like AI Fairness 360, IBM can provide benchmarked hardened models and interface protocols for disparity and bias diagnostics functionality (**aka a full functioning Bias Diagnostics Engine**) that can be universally applied via Open source cloud enablement by a varied range of internal and external 3rd party solutions targeting bias-free outcomes.
 
-2. IBM technology can serve as a scientifically sourced “credible” arbiter of disparity and racial bias by leveraging IBM’s unique and deep brain-trust of research and expertise needed to adequately assign algorithms sufficient to digitize and quantify bias infused context and concepts. 
+2. IBM technology can serve as a scientifically sourced “CREDIBLE-ARIBITER" of disparity and racial bias by leveraging IBM’s unique and deep brain-trust of research and expertise needed to adequately assign algorithms sufficient to digitize and quantify bias infused context and concepts. 
 
-3. Privacy Preserving will be required due to the nature of most data sets, so IBM cloud Security will be a critical technology enabler for this new class of anti-bias / anti-racism solutions and required for the Bias Engine to function optimally since many of the most relevant data sets needed are those that will require maximum levels of security and privacy similar to the levels of security IBM provides to Financial and Public Sector solutions and platforms. 
-
-## 3. Video
-
-[video placeholder]
+3. PRIVIACY PERSERVING will be required due to the nature of most data sets, so IBM cloud Security will be a critical technology enabler for this new class of anti-bias / anti-racism solutions and required for the Bias Engine to function optimally since many of the most relevant data sets needed are those that will require maximum levels of security and privacy similar to the levels of security IBM provides to Financial and Public Sector solutions and platforms. 
 
 ## 4. The Idea
 
