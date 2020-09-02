@@ -6,6 +6,7 @@ This solution starter was created by technologists from IBM.
 
 1. [The Team](#1-the-team)
 2. [Overview](#2-overview)
+3. 
 4. [The idea](#4-the-idea)
 5. [How it works](#5-how-it-works)
 6. [Diagrams](#6-diagrams)
