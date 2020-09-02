@@ -17,7 +17,7 @@ This solution starter was created by technologists from IBM.
 11. [Resources](#11-resources)
 12. [License](#12-license)
 
-## 1. The Team
+## 1. The Team - Working Team for CFC EmbRACE Phase II Externalization 
 
 * Denise Knorr - Product Manager
 * Boz Handy Bosman - AoT Master Inventor (AIF360)
@@ -29,13 +29,11 @@ This solution starter was created by technologists from IBM.
 * Demi Ajayi - Prod Designer – AI Natural Language 
 * Otis Smart - AI Data Scientist - Machine Learning 
 
-## 2. Overview
-#### IBM Racial Disparity & Bias Diagnostics Engine
+## 2. OVERVIEW -IBM Racial Disparity & Bias Diagnostics Engine
 
-* Powered by IBM’s [AI Fairness 360](https://github.com/Trusted-AI/AIF360) sourced functionality
-* Refined to specifically isolate racial disparity in technology enabled outcomes
-* Diagnose bias related causes for the disparity to recommend remediation
-* Monitor outcomes for effectiveness at minimizing bias and racially motivated disparity 
+* Bias Engine is powered by IBM’s [AI Fairness 360] sourced functionality (https://github.com/Trusted-AI/AIF360) refined to specifically isolate racial disparity in technology enabled outcomes
+* Bias Engine diagnoses bias related causes for the disparity to recommend remediation
+* Bia Engine Monitors outcomes and measures alighment of outcoems to desired objective of being-a fair outcome and free of racially biased influence 
 
 ### Problem statement
 
