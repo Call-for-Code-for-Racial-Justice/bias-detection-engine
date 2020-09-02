@@ -8,7 +8,7 @@ This solution starter was created by technologists from IBM.
 2. [Overview](#2-overview)
 3. [The idea](#3-the-idea)
 4. [How it works](#4-how-it-works)
-5. [Diagrams & Architecgures (#5-diagrams)
+5. [Diagrams and Architectures (#5-diagrams)
 6. 
 7. [Documents](#7-documents)
 8. [Datasets](#8-datasets)
