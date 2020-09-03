@@ -61,7 +61,7 @@ A new class of “anti-bias / anti-Systemic Racism” solutions, apps and platfo
 
 ![How it works](https://github.com/MargrietGroenendijk/bias-detection-engine/blob/master/figures/Screen%20Shot%202020-09-01%20at%2012.45.58%20PM.png)
 
-###
+### METRICS OF SUICCESS & PROOF-POINTS: What proves success 
 The Dispairity Detection and Bias Diagnostics Engine will have a cloud based API that will reeive datasets and process pipelines from multiple types of anti-bias focused solutions and apps.in a way that will provision the engine to execute query, selection, presentation, and visualization functions against that data. 
 
 Critical components of the engine's outputs will be fed back to the requestiing solutions via APIs and will provide analyical and contextual insights that include: a visualization of the process pipeline for the served app or solution showing how and where dispairity was detected, a statistical analysis to indicate where and how bias informed the dispairity , and a simulation to model what fair results would look like. 
