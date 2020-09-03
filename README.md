@@ -17,7 +17,7 @@ This solution starter was created by technologists from IBM.
 11. [Resources](#11-resources)
 12. [License](#12-license)
 
-## 1. The Team - Working Team for CFC EmbRACE Phase II Externalization 
+## 1. TEAM - Working Team for CFC EmbRACE Phase II Externalization 
 
 * Denise Knorr - Product Manager
 * Boz Handy Bosman - AoT Master Inventor (AIF360)
@@ -29,15 +29,15 @@ This solution starter was created by technologists from IBM.
 * Demi Ajayi - Prod Designer – AI Natural Language 
 * Otis Smart - AI Data Scientist - Machine Learning 
 
-## 2. OVERVIEW -IBM Racial Disparity & Bias Diagnostics Engine
+## 2. OVERVIEW - IBM Racial Disparity & Bias Diagnostics Engine
 
-* Bias Engine is powered by IBM’s [AI Fairness 360] sourced functionality (https://github.com/Trusted-AI/AIF360) refined to specifically isolate racial disparity in technology enabled outcomes
-* Bias Engine diagnoses bias related causes for the disparity to recommend remediation
-* Bia Engine Monitors outcomes and measures alighment of outcoems to desired objective of being-a fair outcome and free of racially biased influence 
+* Bias Engine incorporates IBM’s [AI Fairness 360] sourced functionality (https://github.com/Trusted-AI/AIF360) refined to specifically isolate racial disparity in technology enabled outcomes
+* Bias Engine diagnoses bias-related causes to ulitmately recommend remediation approaches.
+* Bias Engine monitors outcomes, measuring their alighment to desired objective metrics of equity, fairness, and non-bias (e.g. racial, ethnic, gender).
 
-### PROBLEMM STATEMENT - Reason why deploymen of this technology is so critial 
+### PROBLEM STATEMENT - Reason why deployment of this technology is a so critial need 
 
-A new class of “anti-bias / anti-Systemic Racism” solutions, apps and platforms (aka IBM's EmbACE Call-for-Code) strives to have outcomes that can be mathematically assessed, validated verifiabially attriuted to be “Bias-Free” 
+A new class of “anti-Bias / anti-Systemic-Racism” solutions, apps, and platforms (aka IBM's EmbRACE Call-for-Code) strives to have outcomes that can be quantitatively assessed, verifiability validated, reliably attriuted a “Bias-Free” approval.
 
 1. This new class of solutions that prioritize the minimization of outcomes infected by implicit racial bias will need leading edge technology and newly developed interface protocols to effectively serve as a universally accepted fair and “Credible Arbiter” of bias and other discrimininatory variables that might negatively contribute to negative racial disparity in outcomes associated with the objectives of the soltuion or app 
 
@@ -47,11 +47,11 @@ A new class of “anti-bias / anti-Systemic Racism” solutions, apps and platfo
 3.	Furthering the problem is that effects of bias can be fed into a single solution’s outcomes via multiple inputs / steps in that single solution’s processes, while at the same time some steps or processes associated with the solution’s outcome may be mathematically bias-free or neutral.  
     *	This means that the bias diagnostics capabilities need to be sufficient to assess the *cumulative* effect of *multiple* sources of bias throughout the entire “process pipeline” within a single solution, so that if any single “bias-infected” input source or data set within the solution’s process pipeline goes undiagnosed, the outcome may still reflect elements of racial bias. In other words, neutral processes are not sufficient in-and-of themselves to prevent implicit racial bias from infecting a solution’s outcomes. 
 
-## 3. THE IDEA
+## 3. IDEA
 
 ![Elevator pitch](https://github.com/MargrietGroenendijk/bias-detection-engine/blob/master/figures/Bias%20Engine%20-%20How%20it%20Works%20Sep%201.png)
 
-## 4. HOW IT WORKS - How IBM Technology can help Detect, Diagnois and Remediate Implicit Racial Bias 
+## 4. FUNCTIONALITY - How It Works & How IBM Technology can help Detect, Diagnois and Remediate Implicit Racial Bias 
 
 1. By leveraging existing (enhanced) IBM technologies like AI Fairness 360, IBM can provide benchmarked hardened models and interface protocols for disparity and bias diagnostics functionality (**aka a full functioning Bias Diagnostics Engine**) that can be universally applied via Open source cloud enablement by a varied range of internal and external 3rd party solutions targeting bias-free outcomes.
 
@@ -61,7 +61,7 @@ A new class of “anti-bias / anti-Systemic Racism” solutions, apps and platfo
 
 ![How it works](https://github.com/MargrietGroenendijk/bias-detection-engine/blob/master/figures/Screen%20Shot%202020-09-01%20at%2012.45.58%20PM.png)
 
-### METRICS OF SUICCESS & PROOF-POINTS: What proves success 
+### SUCCESS METRICS & PROOF POINTS - What proves success 
 The Dispairity Detection and Bias Diagnostics Engine will have a cloud based API that will reeive datasets and process pipelines from multiple types of anti-bias focused solutions and apps.in a way that will provision the engine to execute query, selection, presentation, and visualization functions against that data. 
 
 Critical components of the engine's outputs will be fed back to the requestiing solutions via APIs and will provide analyical and contextual insights that include: a visualization of the process pipeline for the served app or solution showing how and where dispairity was detected, a statistical analysis to indicate where and how bias informed the dispairity , and a simulation to model what fair results would look like. 
