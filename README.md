@@ -163,10 +163,10 @@ Using the datasets and outcomes of the Bias Detection Engine, we would like to c
 3. Privacy Preserving
 4. Clean Media Ecosystem Container – Bias detection + Misinformation flagging + Misinformation filters + Accountability Scores
 
-## 9. Vision - Fully scaled IBM DISPARITY DETECTION AND BIAS DIAGNOSTICS ENGINE 
+## 9. Vision - Fully Scaled IBM Disparity Detection and Bias Diagnostics Engine 
 <Denise to provide this input> 
 
-## 10. Getting started
+## 10. Getting Started
 TBD
 
 ## 11. Resources
