@@ -30,13 +30,13 @@ This solution starter was created by technologists from IBM.
 * Demi Ajayi - Prod Designer – AI Natural Language 
 * Otis Smart - AI Data Scientist - Machine Learning 
 
-## 2. OVERVIEW - IBM Racial Disparity & Bias Diagnostics Engine
+## 2. Overview - IBM Racial Disparity & Bias Diagnostics Engine
 
 * Bias Engine is powered by IBM’s [AI Fairness 360](https://github.com/Trusted-AI/AIF360) sourced functionality refined to specifically isolate racial disparity in technology enabled outcomes
 * The Bias Engine diagnoses bias related causes for the disparity to recommend remediation
 * Bias Engine monitors outcomes and measures alignment of outcomes to the desired objective of being a fair outcome and free of racially biased influence 
 
-### PROBLEM STATEMENT - Reason why deployment of this technology is a so critial need
+### Problem Statement - Reason why deployment of this technology is a so critial need
 
 A new class of “anti-bias / anti-systemic Racism” solutions, apps and platforms (aka IBM's EmbRACE Call-for-Code) strives to have outcomes that can be mathematically assessed, validated verifiabially and attributed to be “Bias-Free”. 
 
@@ -48,7 +48,7 @@ A new class of “anti-bias / anti-systemic Racism” solutions, apps and platfo
 3.	Furthering the problem is that effects of bias can be fed into a single solution’s outcomes via multiple inputs / steps in that single solution’s processes, while at the same time some steps or processes associated with the solution’s outcome may be mathematically bias-free or neutral.  
     *	This means that the bias diagnostics capabilities need to be sufficient to assess the *cumulative* effect of *multiple* sources of bias throughout the entire “process pipeline” within a single solution, so that if any single “bias-infected” input source or data set within the solution’s process pipeline goes undiagnosed, the outcome may still reflect elements of racial bias. In other words, neutral processes are not sufficient in-and-of themselves to prevent implicit racial bias from infecting a solution’s outcomes. 
 
-## 3. IDEA
+## 3. Idea
 
 ![Elevator pitch](https://github.com/MargrietGroenendijk/bias-detection-engine/blob/master/figures/Bias%20Engine%20-%20How%20it%20Works%20Sep%201.png)
 
@@ -62,7 +62,7 @@ A new class of “anti-bias / anti-systemic Racism” solutions, apps and platfo
 
 ![How it works](https://github.com/MargrietGroenendijk/bias-detection-engine/blob/master/figures/Screen%20Shot%202020-09-01%20at%2012.45.58%20PM.png)
 
-### SUCCESS & PROOF POINTS - What proves success 
+### Success & Proof Points - What proves success 
 The Disparity Detection and Bias Diagnostics Engine will have a cloud based API that will receive datasets and process pipelines from multiple types of anti-bias focused solutions and apps in a way that will provision the engine to execute query, selection, presentation, and visualization functions against that data. 
 
 Critical components of the engine's outputs will be fed back to the requesting solutions via APIs and will provide analyical and contextual insights that include:
@@ -73,7 +73,7 @@ Critical components of the engine's outputs will be fed back to the requesting s
 
 ![Architecture](https://user-images.githubusercontent.com/7343099/90186448-2c7d8080-dd86-11ea-9fe2-e5e12a181888.png)
 
-## 5. ARCHITECTURE and DIAGRAMS -  Bias Diagnostics Engine Architecture
+## 5. Architecture -  Bias Diagnostics Engine Architecture
 
 ### The Racial Dispairity Funnel 
 Implicit Bias and vairables leading to racial disparity are structural inputs into the decision making process pipeline that leads to outcomes. As such disparity and bias can work their way through the process pipeline to filter out equitable or racially fair analysis along the process pipeline resulting in racial disparity in the outcome.  This is the case regardless of whether individual processes or inputs are in-and-of themselves neutral.  As long as there is any input source or data element that is infected with implicit bias or other variables that lead to racial dispairity that work their way through hiring funnel, willl lead to disparities in the outputs. The hiring process is a seven-step process that includes: sourcing, application, screening, shortlist, hiring manager/interview, offer/negotiation, and candidate decision. In this solution we are not directly addressing the sourcing step, but rather focusing on the pipeline from application to being hired or dispositioned. Our hope is that by showing bias at each step along the pipeline, we can help companies understand why they may not be achieving the diversity they desire in their employee base.  
@@ -163,7 +163,7 @@ Using the datasets and outcomes of the Bias Detection Engine, we would like to c
 3. Privacy Preserving
 4. Clean Media Ecosystem Container – Bias detection + Misinformation flagging + Misinformation filters + Accountability Scores
 
-## 9. VISION - Fully scaled IBM DISPARITY DETECTION AND BIAS DIAGNOSTICS ENGINE 
+## 9. Vision - Fully scaled IBM DISPARITY DETECTION AND BIAS DIAGNOSTICS ENGINE 
 <Denise to provide this input> 
 
 ## 10. Getting started
