@@ -9,7 +9,6 @@ This solution starter was created by technologists from IBM.
 3. [The idea](#3-the-idea)
 4. [How it works](#4-how-it-works)
 5. [Architecture Diagrams](#5-architecture-diagrams)
-6. 
 7. [Documents](#7-documents)
 8. [Datasets](#8-datasets)
 9. [Technology](#9-technology)
@@ -68,7 +67,7 @@ Critical components of the engine's outputs will be fed back to the requestiing 
 
 ![Architecture](https://user-images.githubusercontent.com/7343099/90186448-2c7d8080-dd86-11ea-9fe2-e5e12a181888.png)
 
-## 5.DIABRAMS -  Bias Diagnostics Engine Architecture
+## 5.ARCHITECTURE and DIAGRAMS -  Bias Diagnostics Engine Architecture
 
 ### The Racial Dispairity Funnel 
 Implicit Bias and vairables leading to racial dispairity are structural inputs into the decision making process pipeline that leads to outcomes. As such dispaiarity and bais can work their way through the process pipeline to filter out equitable or racially fair analysis along along the process pipeline resulting in racial dispairity in the outcome.  This is the case regardless of whether individual processes or inputs are in-and-of themselves neutral.  As long as there is any input source or data element that is infected with implicit bias or other variables that lead to racial dispairity.  that work their way through hiring funnel, leading to disparities in the outputs. The hiring process is a seven-step process that includes: sourcing, application, screening, shortlist, hiring manager/interview, offer/negotiation, and candidate decision. In this solution we are not directly addressing the sourcing step, but rather focusing on the pipeline from application to being hired or dispositioned. Our hope is that by showing bias at each step along the pipeline, we can help companies understand why they may not be achieving the diversity they desire in their employee base.  
