@@ -9,7 +9,7 @@ This solution starter was created by technologists from IBM.
 3. [The idea](#3-idea)
 4. [How it works](#4-functionality---how-it-works--how-ibm-technology-can-help-detect-diagnois-and-remediate-implicit-racial-bias)
 5. [Architecture Diagrams](#5-architecture----bias-diagnostics-engine-architecture)
-6. [Documents](#6-documents)
+6. [Prototype](#6-prototype)
 7. [Datasets](#7-datasets)
 8. [Technology](#8-technology)
 9. [Vision](#9-vision---fully-scaled-ibm-disparity-detection-and-bias-diagnostics-engine)
@@ -80,10 +80,10 @@ Implicit Bias and vairables leading to racial disparity are structural inputs in
 
 ![Hiring Funnel](https://github.com/MargrietGroenendijk/bias-detection-engine/blob/master/figures/Funnel%20-%20Bias%20Filtering%20processes%20-%20Sep%201.png)
 
-## 6. Documents
+## 6. Prototype
 
-We have created some initial data science exploratory notebooks [here.](https://github.com/embrace-call-for-code/bias-detection-engine/tree/master/notebooks)
-The notebooks analyze the sample HR/Judicial data sets to depict the bias in various stages of either HR recruiting process or legal procedure for the Black community.
+We have created some initial data science exploratory Jupyter notebooks [here.](https://github.com/embrace-call-for-code/bias-detection-engine/tree/master/notebooks)
+The notebooks analyze simulated HR and Judicial data sets to depict the bias in various stages of either HR recruiting process or legal procedure for the Black community.
 
 ## 7. Datasets
 
