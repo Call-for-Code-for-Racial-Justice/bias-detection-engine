@@ -32,9 +32,9 @@ This solution starter was created by technologists from IBM.
 
 ## 2. Overview - IBM Racial Disparity & Bias Diagnostics Engine
 
-* Bias Engine is powered by IBM’s [AI Fairness 360](https://github.com/Trusted-AI/AIF360) sourced functionality refined to specifically isolate racial disparity in technology enabled outcomes
-* The Bias Engine diagnoses bias related causes for the disparity to recommend remediation
-* Bias Engine monitors outcomes and measures alignment of outcomes to the desired objective of being a fair outcome and free of racially biased influence 
+* The Dispairity Detection and Bias Diagnostics Engine will be powered by IBM’s [AI Fairness 360](https://github.com/Trusted-AI/AIF360) sourced functionality refined to specifically isolate racial disparity in technology enabled outcomes
+* The Engine diagnoses bias related causes for the disparity that is detected and isolated to recommend remediation
+* Bias Engine will also monitor outcomes and measure alignment of outcomes to the desired objective of being a fair outcome that is free of racially biased influence 
 
 ### Problem Statement - Reason why deployment of this technology is a so critial need
 
@@ -47,6 +47,8 @@ A new class of “anti-bias / anti-systemic Racism” solutions, apps and platfo
 
 3.	Furthering the problem is that effects of bias can be fed into a single solution’s outcomes via multiple inputs / steps in that single solution’s processes, while at the same time some steps or processes associated with the solution’s outcome may be mathematically bias-free or neutral.  
     *	This means that the bias diagnostics capabilities need to be sufficient to assess the *cumulative* effect of *multiple* sources of bias throughout the entire “process pipeline” within a single solution, so that if any single “bias-infected” input source or data set within the solution’s process pipeline goes undiagnosed, the outcome may still reflect elements of racial bias. In other words, neutral processes are not sufficient in-and-of themselves to prevent implicit racial bias from infecting a solution’s outcomes. 
+
+These problems are hardened by fact that many bodies of authority (governmental / corporate / financial) may continue to deny the existence of Implicit bias and Systemic Racism.  Therefore mathmatically grounded technology like the Dispairity Detection and Bias Diagnostics Engine will be extremely critical to ensure proper progress can be made in efforts to address societal and structural factors that lend themselves to racially biased outcomes.  
 
 ## 3. Idea
 
