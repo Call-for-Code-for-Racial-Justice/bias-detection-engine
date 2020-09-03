@@ -12,6 +12,7 @@ This solution starter was created by technologists from IBM.
 7. [Documents](#7-documents)
 8. [Datasets](#8-datasets)
 9. [Technology](#9-technology)
+10. [Vision](#10-vision)
 10. [Getting started](#10-getting-started)
 11. [Resources](#11-resources)
 12. [License](#12-license)
