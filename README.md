@@ -159,14 +159,23 @@ Using the datasets and outcomes of the Bias Detection Engine, we would like to c
 
 ## 8. Technology
 
-1. [AI Fairness 360](https://github.com/Trusted-AI/AIF360)
-1. Blockchain to establish consensus about data sharing
-2. Accountability Scoring
-3. Privacy Preserving
-4. Clean Media Ecosystem Container – Bias detection + Misinformation flagging + Misinformation filters + Accountability Scores
+For initial version, we are creating a set of python programs with a Flask front end and APIs for organnizations to provide metamodel and instance to be assessed for systemic disparities and biased outcomes. The APIs will enable specfication of a steps in a structured process, and to provide sets of data to be analyzed.  We also currently provide python code to generate both unbiased and biased data in order to simulate outcomes for a given metamodel. We will add additional security conrols to allow organizations to assess only their own data. We will provide hooks into one or more IBM Cloud AI offerings such that unstructured data can be uploaded for analysis using the chosen training method.  This will enable adopters of the code base to provide keys that will enable use of a trial or production version of the AI offering and to provide training. We will use IBM Carbon Framework with Github Pages (likely Gatsby) to provide content for developers.  (we will edit this statement to update what has been completed during the fortifiction period). 
 
 ## 9. Vision - Fully Scaled IBM Disparity Detection and Bias Diagnostics Engine 
 Boz please add Denise fuure vision diagram here 
+
+#. [AI Fairness 360](https://github.com/Trusted-AI/AIF360). As a stretch goal, during the fortification period, we will add selected features to provide an automated front end for selected AI Fairness 360 algorithms.  Alternatively, on the advice of the CFC Core Team, DE's, and IBM Fairness 360 owners, we may receive data and process it to allow for Fairness 360 to use existing APIs and data access methods. 
+
+We will include privacy preserving features, as well as guidance in Github pages and the readm.  
+epending on legal review, we may offer a license for contributed data to be provided to peer organizations to allow for benchmarking, for example across an industry or profession. 
+
+We intend to create the basis to measure systemic racism in any structured process affecting black lives worldwide, for example, hiring, promotion, childhood education, college and trade school applications, home loans, business loans, professional certifications, civil reforms, and policing and criminal justice reforms.  thereby positioning organizations that currently exhibit or pass through systemic racism to hold themselves and their peers accountable for making tangible progress toward eliminating systemic racism. Each of these processes currently takes systemically disparate input, and in almost all cases does not improve substantially on those inputs when the processes are complete. The organizations who own those processes often assert that their processes are unbiased or netural; they blame their disparate outcomes on disparate inputs inherited from other processes. This is a central defining feature of systemic racism. Using open source and the unique abilities of IBM data and AI, we wil provide the basis for owners of these processes and these stakeholder to identify specific areas of greatest systemic disparity, to define experiments and remediations to address those disparities, and to demonstrate tangible progress. 
+
+
+#. Blockchain to establish consensus about data sharing
+#. Accountability Scoring
+#. Privacy Preserving
+
 
 ## 10. Getting Started
 TBD
