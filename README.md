@@ -16,7 +16,7 @@ This solution starter was created by technologists from IBM.
 10. [Vision](#10-vision)
 10. [Getting started](#10-getting-started)
 11. [Resources](#11-resources)
-12. [License](#12-license)
+
 
 ## 1. The Team - Working Team for CFC EmbRACE Phase II Externalization 
 
