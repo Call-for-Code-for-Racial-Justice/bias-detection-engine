@@ -4,15 +4,15 @@ This solution starter was created by technologists from IBM.
 
 ## Table of Content
 
-1. [The Team](#1-the-team---working-team-for-cfc-embrace-phase-ii-externalization)
-2. [Overview](#2-overview)
-3. [The idea](#3-the-idea)
-4. [How it works](#4-how-it-works)
-5. [Architecture Diagrams](#5-architecture-diagrams)
+1. [The Team](#1-team---working-team-for-cfc-embrace-phase-ii-externalization)
+2. [Overview](#2-overview---ibm-racial-disparity--bias-diagnostics-engine)
+3. [The idea](#3-idea)
+4. [How it works](#4-functionality---how-it-works--how-ibm-technology-can-help-detect-diagnois-and-remediate-implicit-racial-bias)
+5. [Architecture Diagrams](#5-architecture-and-diagrams----bias-diagnostics-engine-architecture)
 6. [Documents](#6-documents)
 7. [Datasets](#7-datasets)
 8. [Technology](#8-technology)
-9. [Vision](#9-vision)
+9. [Vision](#9-vision---fully-scaled-ibm-disparity-detection-and-bias-diagnostics-engine)
 10. [Getting started](#10-getting-started)
 11. [Resources](#11-resources)
 12. [License](#12-license)
@@ -163,7 +163,7 @@ Using the datasets and outcomes of the Bias Detection Engine, we would like to c
 3. Privacy Preserving
 4. Clean Media Ecosystem Container – Bias detection + Misinformation flagging + Misinformation filters + Accountability Scores
 
-## 9. VISION -Fully scaled IBM DISPARITY DETECTION AND BIAS DIAGNOSTICS ENGINE 
+## 9. VISION - Fully scaled IBM DISPARITY DETECTION AND BIAS DIAGNOSTICS ENGINE 
 <Denise to provide this input> 
 
 ## 10. Getting started
