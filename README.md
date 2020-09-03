@@ -157,7 +157,7 @@ Using the datasets and outcomes of the Bias Detection Engine, we would like to c
 
 ## 8. Technology
 
-1. AI Fairness 360
+1. [AI Fairness 360](https://github.com/Trusted-AI/AIF360)
 1. Blockchain to establish consensus about data sharing
 2. Accountability Scoring
 3. Privacy Preserving
