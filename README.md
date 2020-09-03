@@ -21,7 +21,7 @@ This solution starter was created by technologists from IBM.
 ## 1. Team - Working Team for CFC EmbRACE Phase-II Externalization 
 
 * Denise Knorr - Product Manager
-* Boz Handy Bosman - AoT Master Inventor (AIF360)
+* Boz Handy Bosma - IBM Academy of Technology, Master Inventor (AIF360)
 * Sam Hoffman - AIF360 Developer
 * Margriet Groenendijk - Data & AI Developer Advocate   
 * Hema Veeradhi - Red Hat Software Engineer    
