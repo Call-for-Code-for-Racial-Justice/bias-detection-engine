@@ -9,7 +9,7 @@ This solution starter was created by technologists from IBM.
 3. [The idea](#3-idea)
 4. [How it works](#4-functionality---how-it-works--how-ibm-technology-can-help-detect-diagnois-and-remediate-implicit-racial-bias)
 5. [Architecture Diagrams](#5-architecture----bias-diagnostics-engine-architecture)
-6. [Prototype Working code](#6-prototype-working-code)
+6. [Prototype-Working Code](#6-prototype-working-code)
 7. [Datasets](#7-datasets)
 8. [Technology](#8-technology)
 9. [Vision](#9-vision---fully-scaled-ibm-disparity-detection-and-bias-diagnostics-engine)
