@@ -181,7 +181,20 @@ epending on legal review, we may offer a license for contributed data to be prov
 - Privacy Preserving
 ![Future Vision](https://github.com/embrace-call-for-code/bias-detection-engine/blob/master/images/Bias%20Engine%20%20future%20Vision%20-%20Sep%203%20%20.png)
 
-## 10. Getting Started
+## 10. Getting Started - What preferred external partners you could work with to test solution?
+A.	Legislators who strive to leverage technology to help them ensure that new laws and legislation is free of bias that can lead to disparity in how the laws / legislation impact minorities constituents / citizens  
+•	United States Sentencing Commission - created by Congress in 1984 to reduce sentencing disparities and promote transparency and proportionality in sentencing. The Commission collects, analyzes, and distributes a broad array of information on federal sentencing practices.  The Commission also continuously establishes and amends sentencing guidelines for the judicial branch and assists the other branches in developing effective and efficient crime policy . 
+B.	Pioneers in deploying solutions that feature avoidance of implicit bias, racist algorithms and processes, and misinformation … especially when solutions are related to Diversity & Representation / Police and Judicial Reform / Policy & Legislation 
+•	A Starting Point - channel of communication and connectivity between Americans and their elected officials with the goal of creating a more informed electorate.
+C.	Corporate enterprises who strive to strip racial disparity and implicit bias from their internal technology enabled processes
+•	SHRM - the Society for Human Resource Management, creates better workplaces where employers and employees thrive together. As the voice of all things work, workers and the workplace, SHRM is the foremost expert, convener and thought leader on issues impacting today’s evolving workplaces
+
+D.	Jurisdictions who strive to demonstrate efforts to respond to public calls to cleanse racial bias from outcomes 
+•	Minneapolis City Council – working to redefine policies / structures for policing going forward after George Floyd reckoning 
+
+E.	Polling enterprises that may have data sets that are optimal for testing how racial or implicit bias in questions can impact the outcomes
+
+F.	Social Scientists, Researchers, Academicians who want to contribute to the science of AI being used to detect disparity and implicit bias tied to Systemic Racism  
 
 ### To use current scripts:
 1. Clone repo
