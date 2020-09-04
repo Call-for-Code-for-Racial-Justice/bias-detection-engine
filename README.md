@@ -82,7 +82,7 @@ Implicit Bias and vairables leading to racial disparity are structural inputs in
 
 ![Hiring Funnel](https://github.com/embrace-call-for-code/bias-detection-engine/blob/master/images/Bias%20Engine%20Funnel%20-%20Sep%203.png)
 
-## 6. Prototype
+## 6. Prototype - Working Code
 
 We have created some initial data science exploratory Jupyter notebooks [here.](https://github.com/embrace-call-for-code/bias-detection-engine/tree/master/notebooks)
 The notebooks analyze simulated HR and Judicial data sets to depict the bias in various stages of either HR recruiting process or legal procedure for the Black community. 
@@ -186,7 +186,21 @@ epending on legal review, we may offer a license for contributed data to be prov
 - Privacy Preserving
 ![Future Vision](https://github.com/embrace-call-for-code/bias-detection-engine/blob/master/images/Bias%20Engine%20%20future%20Vision%20-%20Sep%203%20%20.png)
 
-## 10. Getting Started - What preferred external partners you could work with to test solution?
+## 10. Getting Started - 
+### To use current scripts:
+1. Clone repo
+2. Define steps for structured process
+3. Create data file to be analyzed
+4. In Jupyter Notebook, adapt script to apply to structure process and data file
+5. If generating data, use data generation python script.
+### To contribute functionality:
+1. Clone repo
+2. Consult readme file and gh pages (pending)
+3. Develop feature
+4. Contribute via Github Pull Request
+5. Contact developers via Github ID
+
+### What preferred external partners you could work with to test solution?
 A.	Legislators who strive to leverage technology to help them ensure that new laws and legislation is free of bias that can lead to disparity in how the laws / legislation impact minorities constituents / citizens  
 - **United States Sentencing Commission** - created by Congress in 1984 to reduce sentencing disparities and promote transparency and proportionality in sentencing. The Commission collects, analyzes, and distributes a broad array of information on federal sentencing practices.  The Commission also continuously establishes and amends sentencing guidelines for the judicial branch and assists the other branches in developing effective and efficient crime policy . 
 
@@ -203,19 +217,7 @@ E.	**Polling enterprises** that may have data sets that are optimal for testing 
 
 F.	**Social Scientists, Researchers, Academicians** who want to contribute to the science of AI being used to detect disparity and implicit bias tied to Systemic Racism  
 
-### To use current scripts:
-1. Clone repo
-2. Define steps for structured process
-3. Create data file to be analyzed
-4. In Jupyter Notebook, adapt script to apply to structure process and data file
-5. If generating data, use data generation python script.
 
-### To contribute functionality:
-1. Clone repo
-2. Consult readme file and gh pages (pending)
-3. Develop feature
-4. Contribute via Github Pull Request
-5. Contact developers via Github ID
 
 ## 11. Resources
 - **United States Sentencing Commission**: Created by Congress in 1984 to reduce sentencing disparities and promote transparency and proportionality in sentencing. The Commission collects, analyzes, and distributes a broad array of information on federal sentencing practices.  The Commission also continuously establishes and amends sentencing guidelines for the judicial branch and assists the other branches in developing effective and efficient crime policy . 
