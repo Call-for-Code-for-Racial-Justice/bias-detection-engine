@@ -201,13 +201,14 @@ Contribute via Github Pull Request
 Contact developers via Github ID
 
 ## 11. Resources
+- United States Sentencing Commission: Created by Congress in 1984 to reduce sentencing disparities and promote transparency and proportionality in sentencing. The Commission collects, analyzes, and distributes a broad array of information on federal sentencing practices.  The Commission also continuously establishes and amends sentencing guidelines for the judicial branch and assists the other branches in developing effective and efficient crime policy . 
 
-
+https://www.datacamp.com/community/blog/measuring-bias-in-ml
+ Measuring Bias in Machine Learning: The Statistical Bias Test - a defining statistical bias in a machine learning model and demonstrate how to perform the test on synthetic data.
 
 ## 12. License
-
-Apache 2.0 License
-Content license pending legal guidance
+- Apache 2.0 License
+- Content license pending legal guidance
 
 
 
