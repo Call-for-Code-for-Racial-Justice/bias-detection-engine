@@ -100,6 +100,7 @@ The Sentencing Reform solution will pass the bias detection engine information a
 - Statistical component - 90% like this crime, 45% like this one
 - Have similar crimes in the jurisdiction been charged the same way?
 - Case precedent  - what other cases are similar to this one? 
+
 **Example 2: Sentencing Reform Outcomes Data models**
 - Similar crimes to compare 
 - Average sentencing data by conviction 
@@ -119,13 +120,7 @@ The Sentencing Reform solution will pass the bias detection engine information a
 - What happens after people serve their sentence? By sentence type. 
 - Likelihood to re-offend or be rehabilitated
 - Help the public defender argue for a different option
-- What sentence could make them less likely to re-offend?
-- Mental health treatment for example
-- Routing homeless people to social services
-- Jail time
-- Probation
-- Home Arrest
-- School-to-prison pipeline
+
 **Example 3: Data relevant to public dashboard** 
 - Using the datasets and outcomes of the Bias Detection Enginecreate public dashboards including visualizations to explain the following:
 - How bias is currently showing up in the sentencing outcomes: aggregate data
@@ -136,6 +131,7 @@ The Sentencing Reform solution will pass the bias detection engine information a
 - Some kind of "bias score"?
 - Evidence and sources
 - Are there other types of sentences that would have a better impact/prevent the crime from occurring again? 
+
 **Example 4: Sentencing Reform data querries and analysis that help shape policy** 
 - Are mandatory sentencing guidelines contributing to biased outcomes?
 - Did the person convicted have good legal representation?
@@ -146,9 +142,7 @@ The Sentencing Reform solution will pass the bias detection engine information a
 - What sentence could make them less likely to re-offend
 - Mental health treatment for example
 - Routing homeless people to social services
-- Jail time
-- Probation
-- Home arrest
+- Jail time - - Probation - - Home arrest
 - School-to-prison pipeline?
 
 
