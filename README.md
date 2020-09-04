@@ -153,7 +153,6 @@ Sentencing Reform solution can give the bias detection engine information about 
 
 
 ## 8. Technology
-
 - For initial version, we are creating a set of python programs with a Flask front end and APIs for organnizations to provide metamodel and instance to be assessed for systemic disparities and biased outcomes. 
 - The APIs will enable specfication of a steps in a structured process, and to provide sets of data to be analyzed.  We also currently provide python code to generate both unbiased and biased data in order to simulate outcomes for a given metamodel. 
 - We will add additional security conrols to allow organizations to assess only their own data. 
@@ -164,17 +163,16 @@ Sentencing Reform solution can give the bias detection engine information about 
 - Jupyter Notebooks and D3 Visualization Library using
 
 ## 9. Vision - Fully Scaled IBM Disparity Detection and Bias Diagnostics Engine 
+- IBM Cloud will play a prominent role in our solution, though we will use Openshift to ensure multi-cloud capability. IBM Data and AI capabilities such as natural language understanding, geospatial analysis, and big data analytics will play a critical role in an overall solution to end systemic racism. By providing bindings into key IbM cloud capabilities like machine learning, we will be able to analyze structured data in any sequential pipeline or funnel affecting black lives, identifying key areas of disparity for each step, end to end. Moreover, we will provide a solution to collect and bind semi-structured and unstructured text associated with any step in a structured process we analyze. Using IBM storage and database technology, we will be able to acccept and federate large data volumes in a secure fashion and perform any and all forms of analysis that might be required to analyze that process. IBM data analysis capabilities will then position users to analyze relationships among pipelines, quantifying their cumulative effect in distilling and amplifying systemic racism and its impact on the lives experience of black persons. We have established relationships with advanced practitioners who would be interested in approaching this topic from very large data, supercomputing, and neuromorphic computing perspectives, with an eye for how these technologies may assist in disentangling the deleterios consequences of systemic racism. 
 
-IBM Cloud will play a prominent role in our solution, though we will use Openshift to ensure multi-cloud capability. IBM Data and AI capabilities such as natural language understanding, geospatial analysis, and big data analytics will play a critical role in an overall solution to end systemic racism. By providing bindings into key IbM cloud capabilities like machine learning, we will be able to analyze structured data in any sequential pipeline or funnel affecting black lives, identifying key areas of disparity for each step, end to end. Moreover, we will provide a solution to collect and bind semi-structured and unstructured text associated with any step in a structured process we analyze. Using IBM storage and database technology, we will be able to acccept and federate large data volumes in a secure fashion and perform any and all forms of analysis that might be required to analyze that process. IBM data analysis capabilities will then position users to analyze relationships among pipelines, quantifying their cumulative effect in distilling and amplifying systemic racism and its impact on the lives experience of black persons. We have established relationships with advanced practitioners who would be interested in approaching this topic from very large data, supercomputing, and neuromorphic computing perspectives, with an eye for how these technologies may assist in disentangling the deleterios consequences of systemic racism. 
+- [AI Fairness 360](https://github.com/Trusted-AI/AIF360). As a stretch goal, during the fortification period, we will add selected features to provide an automated front end for selected AI Fairness 360 algorithms.  Alternatively, on the advice of the CFC Core Team, DE's, and IBM Fairness 360 owners, we may receive data and process it to allow for Fairness 360 to use existing APIs and data access methods. 
 
-[AI Fairness 360](https://github.com/Trusted-AI/AIF360). As a stretch goal, during the fortification period, we will add selected features to provide an automated front end for selected AI Fairness 360 algorithms.  Alternatively, on the advice of the CFC Core Team, DE's, and IBM Fairness 360 owners, we may receive data and process it to allow for Fairness 360 to use existing APIs and data access methods. 
-
-We will include privacy preserving features, as well as guidance in Github pages and the readm.  
+- We will include privacy preserving features, as well as guidance in Github pages and the readm.  
 epending on legal review, we may offer a license for contributed data to be provided to peer organizations to allow for benchmarking, for example across an industry or profession. 
 
-We will explore GraphQL for integrating data sets from multiple organizations. This likely will be a contributed feature or we may choose a different standard or way of providing aggregated queries. Due to time constraints, we omitted IBM Blockchain from this solution, but we see vast potential for integrating blockchaain with this solution. We are exploring these options with technical leaders in IBM Research and the IBM Blockchain business unit. 
+- We will explore GraphQL for integrating data sets from multiple organizations. This likely will be a contributed feature or we may choose a different standard or way of providing aggregated queries. Due to time constraints, we omitted IBM Blockchain from this solution, but we see vast potential for integrating blockchaain with this solution. We are exploring these options with technical leaders in IBM Research and the IBM Blockchain business unit. 
 
-We intend to create the basis to measure racial dispairity and diagnois when, where and how racial bias contriutes to those disparaties. This detection and diagnostics capability can be applied to structured processes relevant to full range of processes currently plaguaged by effects of Sytemic Racism worlwide including hiring & promotion processes, education and school application screening and testing processes, home loans, business loans, professional certifications, civil reforms, and policing and criminal justice reforms.  This will better position organizations that currently exhibit or pass through systemic racism to remedy their processes and  hold themselves and their peers accountable for making tangible progress toward eliminating the effects of systemic racism. Each of these processes currently takes racially flawed input, and in almost all cases does not improve substantially on those inputs when the processes are complete. The organizations who own those processes often assert that their processes are unbiased or netural; they blame their disparate outcomes on disparate inputs inherited from other processes. This is a central defining feature of systemic racism. Using open source and the unique abilities of IBM data and AI, we wil provide the basis for owners of these processes and these stakeholder to identify specific areas of greatest systemic disparity, to define experiments and remediations to address those disparities, and to demonstrate tangible progress. 
+- We intend to create the basis to measure racial dispairity and diagnois when, where and how racial bias contriutes to those disparaties. This detection and diagnostics capability can be applied to structured processes relevant to full range of processes currently plaguaged by effects of Sytemic Racism worlwide including hiring & promotion processes, education and school application screening and testing processes, home loans, business loans, professional certifications, civil reforms, and policing and criminal justice reforms.  This will better position organizations that currently exhibit or pass through systemic racism to remedy their processes and  hold themselves and their peers accountable for making tangible progress toward eliminating the effects of systemic racism. Each of these processes currently takes racially flawed input, and in almost all cases does not improve substantially on those inputs when the processes are complete. The organizations who own those processes often assert that their processes are unbiased or netural; they blame their disparate outcomes on disparate inputs inherited from other processes. This is a central defining feature of systemic racism. Using open source and the unique abilities of IBM data and AI, we wil provide the basis for owners of these processes and these stakeholder to identify specific areas of greatest systemic disparity, to define experiments and remediations to address those disparities, and to demonstrate tangible progress. 
 
 # Future state of the engine will also fully integrate the followoig technologies 
 - Blockchain to establish consensus about data sharing
@@ -184,27 +182,25 @@ We intend to create the basis to measure racial dispairity and diagnois when, wh
 
 ## 10. Getting Started
 
-To use current scripts:
+### To use current scripts:
+1.Clone repo
+2.Define steps for structured process
+3. Create data file to be analyzed
+4.In Jupyter Notebook, adapt script to apply to structure process and data file
+5.If generating data, use data generation python script.
 
-Clone repo
-Define steps for structured process
-Create data file to be analyzed
-In Jupyter Notebook, adapt script to apply to structure process and data file
-If generating data, use data generation python script.
-
-To contribute functionality:
-
-Clone repo
-Consult readme file and gh pages (pending)
-Develop feature
-Contribute via Github Pull Request
-Contact developers via Github ID
+### To contribute functionality:
+1. Clone repo
+2. Consult readme file and gh pages (pending)
+3. Develop feature
+4. Contribute via Github Pull Request
+5. Contact developers via Github ID
 
 ## 11. Resources
 - United States Sentencing Commission: Created by Congress in 1984 to reduce sentencing disparities and promote transparency and proportionality in sentencing. The Commission collects, analyzes, and distributes a broad array of information on federal sentencing practices.  The Commission also continuously establishes and amends sentencing guidelines for the judicial branch and assists the other branches in developing effective and efficient crime policy . 
 
-https://www.datacamp.com/community/blog/measuring-bias-in-ml
- Measuring Bias in Machine Learning: The Statistical Bias Test - a defining statistical bias in a machine learning model and demonstrate how to perform the test on synthetic data.
+- Measuring Bias in Machine Learning: The Statistical Bias Test - https://www.datacamp.com/community/blog/measuring-bias-in-ml 
+a defining statistical bias in a machine learning model and demonstrate how to perform the test on synthetic data.
 
 ## 12. License
 - Apache 2.0 License
