@@ -85,7 +85,19 @@ Implicit Bias and vairables leading to racial disparity are structural inputs in
 ## 6. Prototype
 
 We have created some initial data science exploratory Jupyter notebooks [here.](https://github.com/embrace-call-for-code/bias-detection-engine/tree/master/notebooks)
-The notebooks analyze simulated HR and Judicial data sets to depict the bias in various stages of either HR recruiting process or legal procedure for the Black community.
+The notebooks analyze simulated HR and Judicial data sets to depict the bias in various stages of either HR recruiting process or legal procedure for the Black community. 
+
+1. [Recruting Bias Notebook](https://github.com/embrace-call-for-code/bias-detection-engine/blob/master/notebooks/recruiting_bias.ipynb) - This notebook analyzes the simulated HR recruiting datasets and describes the bias detected in each stage of the recruiting process measured by disparate impact. The disparate impact is simply the ratio of *selection rates*, or the proportion of applicants who move on to the next stage, between one group and all the others. Therefore, we can look at selection rates themselves to see which groups are disadvantaged.
+
+![Hiring Bias](https://github.com/embrace-call-for-code/bias-detection-engine/blob/master/images/Hiring_Bias.png)
+
+Darker red colored squares are worse than average and darker blue squares are better than average. Blank squares mean there is no data. Again, we can clearly see bias in the shortlisting stage as all three black intersectional groups are disadvantaged (redder) compared to the others.
+
+2. [Judicial Bias Notebook](https://github.com/embrace-call-for-code/bias-detection-engine/blob/master/notebooks/judicial_bias.ipynb) - This notebook analyzes the simulated judicial crime datasets and describes the bias detect among different races in each stage of the legal procedure measured by disparate impact. 
+
+![Judicial Bias](https://github.com/embrace-call-for-code/bias-detection-engine/blob/master/images/Judicial_Bias.png)
+
+This is one view of our data. We can clearly see that a large proportion of black defendants take a plea bargain.
 
 ## 7. Datasets - Data Model Example 
 The data sets used in our initial analysis/notebooks can be found [here.](https://github.com/embrace-call-for-code/bias-detection-engine/tree/master/data)
