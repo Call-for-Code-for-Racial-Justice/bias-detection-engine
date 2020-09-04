@@ -87,7 +87,7 @@ Implicit Bias and vairables leading to racial disparity are structural inputs in
 We have created some initial data science exploratory Jupyter notebooks [here.](https://github.com/embrace-call-for-code/bias-detection-engine/tree/master/notebooks)
 The notebooks analyze simulated HR and Judicial data sets to depict the bias in various stages of either HR recruiting process or legal procedure for the Black community. 
 
-1. [Recruting Bias Notebook](https://github.com/embrace-call-for-code/bias-detection-engine/blob/master/notebooks/recruiting_bias.ipynb) - This notebook analyzes the simulated HR recruiting datasets and describes the bias detected in each stage of the recruiting process measured by disparare impact. The disparate impact is simply the ratio of *selection rates*, or the proportion of applicants who move on to the next stage, between one group and all the others. Therefore, we can look at selection rates themselves to see which groups are disadvantaged.
+1. [Recruting Bias Notebook](https://github.com/embrace-call-for-code/bias-detection-engine/blob/master/notebooks/recruiting_bias.ipynb) - This notebook analyzes the simulated HR recruiting datasets and describes the bias detected in each stage of the recruiting process measured by disparate impact. The disparate impact is simply the ratio of *selection rates*, or the proportion of applicants who move on to the next stage, between one group and all the others. Therefore, we can look at selection rates themselves to see which groups are disadvantaged.
 
 ![Hiring Bias](https://github.com/embrace-call-for-code/bias-detection-engine/blob/master/images/Hiring_Bias.png)
 
