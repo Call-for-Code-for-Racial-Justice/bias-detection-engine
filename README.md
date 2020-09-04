@@ -180,8 +180,6 @@ epending on legal review, we may offer a license for contributed data to be prov
 - Privacy Preserving
 ![Future Vision](https://github.com/embrace-call-for-code/bias-detection-engine/blob/master/images/Bias%20Engine%20%20future%20Vision%20-%20Sep%203%20%20.png)
 
-https://github.com/embrace-call-for-code/bias-detection-engine/blob/master/images/Bias%20Engine%20%20future%20Vision%20-%20Sep%203%20%20.png
-
 ## 10. Getting Started
 
 ### To use current scripts:
@@ -199,7 +197,7 @@ https://github.com/embrace-call-for-code/bias-detection-engine/blob/master/image
 5. Contact developers via Github ID
 
 ## 11. Resources
-- United States Sentencing Commission: Created by Congress in 1984 to reduce sentencing disparities and promote transparency and proportionality in sentencing. The Commission collects, analyzes, and distributes a broad array of information on federal sentencing practices.  The Commission also continuously establishes and amends sentencing guidelines for the judicial branch and assists the other branches in developing effective and efficient crime policy . 
+- **United States Sentencing Commission**: Created by Congress in 1984 to reduce sentencing disparities and promote transparency and proportionality in sentencing. The Commission collects, analyzes, and distributes a broad array of information on federal sentencing practices.  The Commission also continuously establishes and amends sentencing guidelines for the judicial branch and assists the other branches in developing effective and efficient crime policy . 
 
 - Measuring Bias in Machine Learning: The Statistical Bias Test - https://www.datacamp.com/community/blog/measuring-bias-in-ml 
 a defining statistical bias in a machine learning model and demonstrate how to perform the test on synthetic data.
