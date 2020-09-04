@@ -80,8 +80,7 @@ Critical components of the engine's outputs will be fed back to the requesting s
 ### The Racial Dispairity Funnel 
 Implicit Bias and vairables leading to racial disparity are structural inputs into the decision making process pipeline that leads to outcomes. As such disparity and bias can work their way through the process pipeline to filter out equitable or racially fair analysis along the process pipeline resulting in racial disparity in the outcome.  This is the case regardless of whether individual processes or inputs are in-and-of themselves neutral.  As long as there is any input source or data element that is infected with implicit bias or other variables that lead to racial dispairity that work their way through hiring funnel, willl lead to disparities in the outputs. The hiring process is a seven-step process that includes: sourcing, application, screening, shortlist, hiring manager/interview, offer/negotiation, and candidate decision. In this solution we are not directly addressing the sourcing step, but rather focusing on the pipeline from application to being hired or dispositioned. Our hope is that by showing bias at each step along the pipeline, we can help companies understand why they may not be achieving the diversity they desire in their employee base.  
 
-![Hiring Funnel](https://github.com/MargrietGroenendijk/bias-detection-engine/blob/master/figures/Funnel%20-%20Bias%20Filtering%20processes%20-%20Sep%201.png)
-
+![Hiring Funnel(https://github.com/embrace-call-for-code/bias-detection-engine/blob/master/images/Bias%20Engine%20Funnel%20-%20Sep%203.png)
 ## 6. Prototype
 
 We have created some initial data science exploratory Jupyter notebooks [here.](https://github.com/embrace-call-for-code/bias-detection-engine/tree/master/notebooks)
