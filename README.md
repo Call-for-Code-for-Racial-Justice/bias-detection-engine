@@ -22,7 +22,7 @@ This solution starter was created by technologists from IBM.
 
 * Denise Knorr - Product Manager
 * Boz Handy Bosma PhD - IBM Academy of Technology, Master Inventor (AIF360)
-* Sam Hoffman PhD - AIF360 Developer
+* Sam Hoffman - AIF360 Developer
 * Margriet Groenendijk - Data & AI Developer Advocate   
 * Hema Veeradhi - Red Hat Software Engineer    
 * Kate Tereshchenko - Cloud Data Scientist 
