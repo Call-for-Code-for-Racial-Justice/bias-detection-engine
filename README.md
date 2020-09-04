@@ -21,14 +21,14 @@ This solution starter was created by technologists from IBM.
 ## 1. Team - Working Team for CFC EmbRACE Phase-II Externalization 
 
 * Denise Knorr - Product Manager
-* Boz Handy Bosma - IBM Academy of Technology, Master Inventor (AIF360)
-* Sam Hoffman - AIF360 Developer
+* Boz Handy Bosma PhD - IBM Academy of Technology, Master Inventor (AIF360)
+* Sam Hoffman PhD - AIF360 Developer
 * Margriet Groenendijk - Data & AI Developer Advocate   
 * Hema Veeradhi - Red Hat Software Engineer    
 * Kate Tereshchenko - Cloud Data Scientist 
 * Ann Marie Fred - CFC Sentencing Reform Team 
-* Demi Ajayi - Prod Designer – AI Natural Language 
-* Otis Smart - AI Data Scientist - Machine Learning 
+* Demi Ajayi PhD - Prod Designer – AI Natural Language 
+* Otis Smart PhD - AI Data Scientist - Machine Learning 
 
 ## 2. Overview - IBM Racial Disparity & Bias Diagnostics Engine
 
