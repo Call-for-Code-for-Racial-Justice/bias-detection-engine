@@ -203,6 +203,8 @@ epending on legal review, we may offer a license for contributed data to be prov
 - Measuring Bias in Machine Learning: The Statistical Bias Test - https://www.datacamp.com/community/blog/measuring-bias-in-ml 
 a defining statistical bias in a machine learning model and demonstrate how to perform the test on synthetic data.
 
+- 5 Types of bias & how to eliminate them in your machine learning project: - Sample, Exclusion, Observer, Prejudice, Measurement bias. An introduction and an example to each   https://towardsdatascience.com/5-types-of-bias-how-to-eliminate-them-in-your-machine-learning-project-75959af9d3a0
+
 ## 12. License
 - Apache 2.0 License
 - Content license pending legal guidance
