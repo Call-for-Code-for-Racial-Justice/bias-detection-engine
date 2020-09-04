@@ -81,10 +81,23 @@ Critical components of the engine's outputs will be fed back to the requesting s
 Implicit Bias and vairables leading to racial disparity are structural inputs into the decision making process pipeline that leads to outcomes. As such disparity and bias can work their way through the process pipeline to filter out equitable or racially fair analysis along the process pipeline resulting in racial disparity in the outcome.  This is the case regardless of whether individual processes or inputs are in-and-of themselves neutral.  As long as there is any input source or data element that is infected with implicit bias or other variables that lead to racial dispairity that work their way through hiring funnel, willl lead to disparities in the outputs. The hiring process is a seven-step process that includes: sourcing, application, screening, shortlist, hiring manager/interview, offer/negotiation, and candidate decision. In this solution we are not directly addressing the sourcing step, but rather focusing on the pipeline from application to being hired or dispositioned. Our hope is that by showing bias at each step along the pipeline, we can help companies understand why they may not be achieving the diversity they desire in their employee base.  
 
 ![Hiring Funnel](https://github.com/embrace-call-for-code/bias-detection-engine/blob/master/images/Bias%20Engine%20Funnel%20-%20Sep%203.png)
+
 ## 6. Prototype
 
 We have created some initial data science exploratory Jupyter notebooks [here.](https://github.com/embrace-call-for-code/bias-detection-engine/tree/master/notebooks)
-The notebooks analyze simulated HR and Judicial data sets to depict the bias in various stages of either HR recruiting process or legal procedure for the Black community.
+The notebooks analyze simulated HR and Judicial data sets to depict the bias in various stages of either HR recruiting process or legal procedure for the Black community. 
+
+1. [Recruting Bias Notebook](https://github.com/embrace-call-for-code/bias-detection-engine/blob/master/notebooks/recruiting_bias.ipynb) - This notebook analyzes the simulated HR recruiting datasets and describes the bias detected in each stage of the recruiting process measured by disparare impact. The disparate impact is simply the ratio of *selection rates*, or the proportion of applicants who move on to the next stage, between one group and all the others. Therefore, we can look at selection rates themselves to see which groups are disadvantaged.
+
+![Hiring Bias](https://github.com/embrace-call-for-code/bias-detection-engine/blob/master/images/Hiring_Bias.png)
+
+Darker red colored squares are worse than average and darker blue squares are better than average. Blank squares mean there is no data. Again, we can clearly see bias in the shortlisting stage as all three black intersectional groups are disadvantaged (redder) compared to the others.
+
+2. [Judicial Bias Notebook](https://github.com/embrace-call-for-code/bias-detection-engine/blob/master/notebooks/judicial_bias.ipynb) - This notebook analyzes the simulated judicial crime datasets and describes the bias detect among different races in each stage of the legal procedure measured by disparate impact. 
+
+![Judicial Bias](https://github.com/embrace-call-for-code/bias-detection-engine/blob/master/images/Judicial_Bias.png)
+
+This is one view of our data. We can clearly see that a large proportion of black defendants take a plea bargain.
 
 ## 7. Datasets
 
