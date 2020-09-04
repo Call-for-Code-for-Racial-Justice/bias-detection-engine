@@ -36,7 +36,7 @@ This solution starter was created by technologists from IBM.
 * The Engine diagnoses bias related causes for the disparity that is detected and isolated to recommend remediation
 * Bias Engine will also monitor outcomes and measure alignment of outcomes to the desired objective of being a fair outcome that is free of racially biased influence 
 
-### Problem Statement - Reason why deployment of this technology is a so critial need
+### Problem Statement - Reason why deployment of this type of Bias detection technology is a so critial at this moment in time 
 
 A new class of “anti-bias / anti-systemic Racism” solutions, apps and platforms (aka IBM's EmbRACE Call-for-Code) strives to have outcomes that can be mathematically assessed, validated verifiabially and attributed to be “Bias-Free”. 
 
