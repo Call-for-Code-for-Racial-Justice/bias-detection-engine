@@ -174,11 +174,13 @@ epending on legal review, we may offer a license for contributed data to be prov
 
 - We intend to create the basis to measure racial dispairity and diagnois when, where and how racial bias contriutes to those disparaties. This detection and diagnostics capability can be applied to structured processes relevant to full range of processes currently plaguaged by effects of Sytemic Racism worlwide including hiring & promotion processes, education and school application screening and testing processes, home loans, business loans, professional certifications, civil reforms, and policing and criminal justice reforms.  This will better position organizations that currently exhibit or pass through systemic racism to remedy their processes and  hold themselves and their peers accountable for making tangible progress toward eliminating the effects of systemic racism. Each of these processes currently takes racially flawed input, and in almost all cases does not improve substantially on those inputs when the processes are complete. The organizations who own those processes often assert that their processes are unbiased or netural; they blame their disparate outcomes on disparate inputs inherited from other processes. This is a central defining feature of systemic racism. Using open source and the unique abilities of IBM data and AI, we wil provide the basis for owners of these processes and these stakeholder to identify specific areas of greatest systemic disparity, to define experiments and remediations to address those disparities, and to demonstrate tangible progress. 
 
-# Future state of the engine will also fully integrate the followoig technologies 
+## Future state of the engine will also fully integrate the followoig technologies 
 - Blockchain to establish consensus about data sharing
 - Accountability Scoring
 - Privacy Preserving
+![Future Vision](https://github.com/embrace-call-for-code/bias-detection-engine/blob/master/images/Bias%20Engine%20%20future%20Vision%20-%20Sep%203%20%20.png)
 
+https://github.com/embrace-call-for-code/bias-detection-engine/blob/master/images/Bias%20Engine%20%20future%20Vision%20-%20Sep%203%20%20.png
 
 ## 10. Getting Started
 
