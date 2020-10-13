@@ -1,0 +1,429 @@
+swagger: '2.0'
+
+info:
+  version: "0.1.0"
+  title: "Bias and Disparity Detection Engine REST API"
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+
+consumes:
+  - text/plain
+
+produces:
+  - application/json
+
+schemes:
+- "https"
+- "http"
+
+definitions:
+  Sentence:
+    type: "object"
+    required:
+    - "sentence_type"
+    properties:
+      id:
+        type: "string"
+      rev:
+        type: "string"
+      chargeDisposition:
+        type: "string"
+        enum:
+          - "BFW"
+          - "Death Suggested-Cause Abated"
+          - "Finding Guilty"
+          - "FNG"
+          - "FNPC"
+          - "Nolle Prosecution"
+          - "Null"
+          - "Plea of Guilty"
+          - "SOL"
+          - "Verdict-Not Guilty"
+          - "Verdict Guilty"
+      phase:
+        type: "string"
+      sentence_type:
+        type: "string"
+        enum:
+          - "Prison Only"
+          - "Prison and Alternatives"
+          - "Probation Only"
+          - "Probation and Alternatives"
+          - "Fine Ordered/No Restitution"
+          - "Restitution Ordered/No Fine"
+          - "Both Fine & Restitution Ordered"
+          - "Prison"
+          - "Supervision"
+          - "Conditional Discharge"
+          - "Probation"
+          - "Jail"
+          - "Conversion"
+          - "Cook County Boot Camp"
+          - "Probation Terminated Satisfactorily"
+          - "Inpatient Mental Health Services"
+          - "Probation Terminated Unsatisfactorily"
+          - "Conditional Release"
+          - "Probation Terminated Instanter"
+          - "Death"
+          - "2nd Chance Probation"
+      commitmentTerm:
+        type: "integer"
+        format: "int64"
+      commitmentUnit:
+        type: "string"
+      commitmentType:
+        type: "string"
+      minimum_incarceration_months:
+        type: "integer"
+        format: "int64"
+      maximum_incarceration_months:
+        type: "integer"
+        format: "int64"
+      probation_term_months:
+        type: "integer"
+        format: "int64"
+      minimum_probation_months:
+        type: "integer"
+        format: "int64"
+      maximum_probation_months:
+        type: "integer"
+        format: "int64"
+      fine_dollars:
+        type: "integer"
+        format: "int64"
+      minimum_fine_dollars:
+        type: "integer"
+        format: "int64"
+      maximum_fine_dollars:
+        type: "integer"
+        format: "int64"
+      community_service_hours:
+        type: "integer"
+        format: "int64"
+      restitution:
+        type: "string"
+      alternative_sentence:
+        type: "string"
+      suspended_sentence:
+        type: "boolean"
+  Deviation:
+    type: "object"
+    required:
+    - "charge_code"
+    properties:
+      id:
+        type: "string"
+      rev:
+        type: "string"
+      charge_code:
+        type: "string"
+      sentence_deviations:
+        type: "array"
+        items:
+          $ref: "#/definitions/Sentence"
+  BiasDetectionRequest:
+    type: "object"
+    required:
+    - "charge_code"
+    - "race"
+    - "gender"
+    - "controlled_substance_quantity_level"
+    properties:
+      charge_code:
+        type: "string"
+        enum:
+          - "Administration of Justice"
+          - "Aggravated Assault Police Officer"
+          - "Aggravated Battery Police Officer"
+          - "Aggravated Battery With A Firearm"
+          - "Aggravated Battery"
+          - "Aggravated Discharge Firearm"
+          - "Aggravated DUI"
+          - "Aggravated Fleeing and Eluding"
+          - "Aggravated Identity Theft"
+          - "Aggravated Robbery"
+          - "Antitrust"
+          - "Armed Robbery"
+          - "Armed Violence"
+          - "Arson and Attempt Arson"
+          - "Arson"
+          - "Attempt Armed Robbery"
+          - "Attempt Arson"
+          - "Attempt First Degree Murder"
+          - "Attempt Homicide"
+          - "Attempt Sex Crimes"
+          - "Attempt Vehicular Hijacking"
+          - "Battery"
+          - "Bomb Threat"
+          - "Bribery"
+          - "Bribery/Corruption"
+          - "Burglary"
+          - "Burglary/Trespass"
+          - "Child Abduction"
+          - "Child Pornography"
+          - "Commercialized Vice"
+          - "Communicating With Witness"
+          - "Credit Card Cases"
+          - "Criminal Damage to Property"
+          - "Criminal Trespass To Residence"
+          - "Deceptive Practice"
+          - "Disarming Police Officer"
+          - "Dog Fighting"
+          - "Domestic Battery"
+          - "Driving With Suspended Or Revoked License"
+          - "Drug Possession"
+          - "Drug Trafficking"
+          - "DUI"
+          - "Environmental"
+          - "Escape - Failure to Return"
+          - "Extortion/Racketeering"
+          - "FALSIFICATION OF ACCOUNTS"
+          - "Failure to Register as a Sex Offender"
+          - "Firearms"
+          - "Food and Drug"
+          - "Forgery"
+          - "Forgery/Counter/Copyright"
+          - "Fraud"
+          - "Fraud/Theft/Embezzlement"
+          - "Fraudulent ID"
+          - "Gambling"
+          - "Gun - Non UUW"
+          - "Gun Running"
+          - "Hate Crimes"
+          - "Home Invasion"
+          - "Homicide"
+          - "Human Trafficking"
+          - "Identity Theft"
+          - "Immigration"
+          - "Impersonating Police Officer"
+          - "Intimidation"
+          - "Invidual Rights"
+          - "Kidnapping"
+          - "Major Accidents"
+          - "Manslaughter"
+          - "Money Laundering"
+          - "Murder"
+          - "Narcotics"
+          - "National Defense"
+          - "Obscenity/Other Sex Offenses"
+          - "Obstructing Justice"
+          - "Official Misconduct"
+          - "Other Offense"
+          - "Other"
+          - "Pandering"
+          - "Perjury"
+          - "Possession Of Burglary Tools"
+          - "Possession of Contraband in Penal Institution"
+          - "Possession of Explosives"
+          - "Possession of Stolen Motor Vehicle"
+          - "Prison Offenses"
+          - "PROMIS Conversion"
+          - "Prostitution"
+          - "Reckless Discharge of Firearm"
+          - "Reckless Homicide"
+          - "Residential Burglary"
+          - "Retail Theft"
+          - "REVOKED/SUSPENDED 2ND+ DUI"
+          - "Robbery"
+          - "Sex Crimes"
+          - "SEX WITH ANIMAL/<18 PRESENT"
+          - "Sexual Abuse"
+          - "Stalking"
+          - "Stalking/Harassing"
+          - "Tampering"
+          - "Tax"
+          - "Theft by Deception"
+          - "Theft"
+          - "Unlawful Restraint"
+          - "UUW - Unlawful Use of Weapon"
+          - "Vehicular Hijacking"
+          - "Vehicular Invasion"
+          - "Violate Bail Bond"
+          - "VIO BAIL BOND/CLASS X CONVIC"
+          - "Violation of Sex Offender Registration"
+          - "Violation Order Of Protection"
+      race:
+        type: "string"
+        enum:
+          - White
+          - Black
+          - Hispanic
+          - Other
+          - Asian
+          - American Indian
+          - Biracial
+          - White [Hispanic or Latino]
+          - White/Black [Hispanic or Latino]
+          - Unknown
+      gender:
+        enum:
+          - Female
+          - Male
+          - Other
+          - Unknown
+        type: "string"
+      controlled_substance_quantity_level:
+        type: "integer"
+        minimum: 0
+        maximum: 17
+  BiasDetectionResponse:
+    type: "object"
+    required:
+    - "success"
+    - "charge_code"
+    - "race"
+    - "gender"
+    - "controlled_substance_quantity_level"
+    - "deviations"
+    properties:
+      code:
+        type: "integer"
+        format: "int32"
+      success:
+        type: "boolean"
+      error:
+        type: "string"
+      warning:
+        type: "string"
+      charge_code:
+        type: "string"
+        enum:
+          - "Administration of Justice"
+          - "Aggravated Assault Police Officer"
+          - "Aggravated Battery Police Officer"
+          - "Aggravated Battery With A Firearm"
+          - "Aggravated Battery"
+          - "Aggravated Discharge Firearm"
+          - "Aggravated DUI"
+          - "Aggravated Fleeing and Eluding"
+          - "Aggravated Identity Theft"
+          - "Aggravated Robbery"
+          - "Antitrust"
+          - "Armed Robbery"
+          - "Armed Violence"
+          - "Arson and Attempt Arson"
+          - "Arson"
+          - "Attempt Armed Robbery"
+          - "Attempt Arson"
+          - "Attempt First Degree Murder"
+          - "Attempt Homicide"
+          - "Attempt Sex Crimes"
+          - "Attempt Vehicular Hijacking"
+          - "Battery"
+          - "Bomb Threat"
+          - "Bribery"
+          - "Bribery/Corruption"
+          - "Burglary"
+          - "Burglary/Trespass"
+          - "Child Abduction"
+          - "Child Pornography"
+          - "Commercialized Vice"
+          - "Communicating With Witness"
+          - "Credit Card Cases"
+          - "Criminal Damage to Property"
+          - "Criminal Trespass To Residence"
+          - "Deceptive Practice"
+          - "Disarming Police Officer"
+          - "Dog Fighting"
+          - "Domestic Battery"
+          - "Driving With Suspended Or Revoked License"
+          - "Drug Possession"
+          - "Drug Trafficking"
+          - "DUI"
+          - "Environmental"
+          - "Escape - Failure to Return"
+          - "Extortion/Racketeering"
+          - "FALSIFICATION OF ACCOUNTS"
+          - "Failure to Register as a Sex Offender"
+          - "Firearms"
+          - "Food and Drug"
+          - "Forgery"
+          - "Forgery/Counter/Copyright"
+          - "Fraud"
+          - "Fraud/Theft/Embezzlement"
+          - "Fraudulent ID"
+          - "Gambling"
+          - "Gun - Non UUW"
+          - "Gun Running"
+          - "Hate Crimes"
+          - "Home Invasion"
+          - "Homicide"
+          - "Human Trafficking"
+          - "Identity Theft"
+          - "Immigration"
+          - "Impersonating Police Officer"
+          - "Intimidation"
+          - "Invidual Rights"
+          - "Kidnapping"
+          - "Major Accidents"
+          - "Manslaughter"
+          - "Money Laundering"
+          - "Murder"
+          - "Narcotics"
+          - "National Defense"
+          - "Obscenity/Other Sex Offenses"
+          - "Obstructing Justice"
+          - "Official Misconduct"
+          - "Other Offense"
+          - "Other"
+          - "Pandering"
+          - "Perjury"
+          - "Possession Of Burglary Tools"
+          - "Possession of Contraband in Penal Institution"
+          - "Possession of Explosives"
+          - "Possession of Stolen Motor Vehicle"
+          - "Prison Offenses"
+          - "PROMIS Conversion"
+          - "Prostitution"
+          - "Reckless Discharge of Firearm"
+          - "Reckless Homicide"
+          - "Residential Burglary"
+          - "Retail Theft"
+          - "REVOKED/SUSPENDED 2ND+ DUI"
+          - "Robbery"
+          - "Sex Crimes"
+          - "SEX WITH ANIMAL/<18 PRESENT"
+          - "Sexual Abuse"
+          - "Stalking"
+          - "Stalking/Harassing"
+          - "Tampering"
+          - "Tax"
+          - "Theft by Deception"
+          - "Theft"
+          - "Unlawful Restraint"
+          - "UUW - Unlawful Use of Weapon"
+          - "Vehicular Hijacking"
+          - "Vehicular Invasion"
+          - "Violate Bail Bond"
+          - "VIO BAIL BOND/CLASS X CONVIC"
+          - "Violation of Sex Offender Registration"
+          - "Violation Order Of Protection"
+      race:
+        type: "string"
+        enum:
+          - White
+          - Black
+          - Hispanic
+          - Other
+          - Asian
+          - American Indian
+          - Biracial
+          - White [Hispanic or Latino]
+          - White/Black [Hispanic or Latino]
+          - Unknown
+      gender:
+        enum:
+          - Female
+          - Male
+          - Other
+          - Unknown
+        type: "string"
+      controlled_substance_quantity_level:
+        type: "integer"
+        minimum: 0
+        maximum: 17
+      deviations:
+        type: "array"
+        items:
+          $ref: "#/definitions/Deviation"

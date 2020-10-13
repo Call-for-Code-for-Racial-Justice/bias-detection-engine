@@ -1,0 +1,48 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: "{{  .Chart.Name }}"
+    chart: '{{ .Chart.Name }}-{{ .Chart.Version | replace "+" "_" }}'
+  name: "{{  .Chart.Name }}-deployment"
+spec:
+  replicas: {{ .Values.replicaCount }}
+  revisionHistoryLimit: {{ .Values.revisionHistoryLimit }}
+  selector: 
+    matchLabels:
+      app: "{{  .Chart.Name }}"
+      version: "current"
+  strategy:
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 0
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: "{{  .Chart.Name }}"
+        version: "current"
+    spec:
+      containers:
+      - env:
+        - name: PORT
+          value : "{{ .Values.service.servicePort }}"
+        - name: APPLICATION_NAME
+          value: "{{ .Release.Name }}"
+        image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+        imagePullPolicy: {{ .Values.image.pullPolicy }}
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: {{ .Values.service.servicePort }}
+            scheme: HTTP
+          initialDelaySeconds: {{ .Values.livenessProbe.initialDelaySeconds}}
+          periodSeconds: {{ .Values.livenessProbe.periodSeconds}}
+        name: "{{  .Chart.Name  }}"
+        ports:
+        - containerPort: {{ .Values.service.servicePort}}
+          protocol: TCP
+        resources:
+          requests:
+            cpu: "{{ .Values.image.resources.requests.cpu }}"
+            memory: "{{ .Values.image.resources.requests.memory }}"
