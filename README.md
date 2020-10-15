@@ -73,7 +73,7 @@ Critical components of the engine's outputs will be fed back to the requesting s
 2. A statistical analysis to indicate where and how bias informed the dispairity
 3. A simulation to model what fair results would look like
 
-![Architecture](https://user-images.githubusercontent.com/7343099/90186448-2c7d8080-dd86-11ea-9fe2-e5e12a181888.png)
+![Architecture](https://github.com/Call-for-Code-for-Racial-Justice/bias-detection-engine/blob/master/images/Architecture.png)
 
 ## 5. Architecture -  Bias Diagnostics Engine Architecture
 
