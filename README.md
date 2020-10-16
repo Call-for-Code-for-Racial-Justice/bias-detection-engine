@@ -1,4 +1,4 @@
-# Bias and Disparity Detection Engine 
+# Bias and Disparity Detection Engine for Open Sentencing Solution (Federal) 
 
 This solution starter was created by technologists from IBM.
 
