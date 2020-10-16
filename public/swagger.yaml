@@ -13,9 +13,43 @@ consumes:
 produces:
   - application/json
 
-schemes:
-- "https"
-- "http"
+paths:
+  /sentencing-disparity:
+    post:
+      operationId: sentencing-disparity
+      # description: Get health status of
+      requestBody:
+        required: true
+        description: A JSON key-value map listing the attributes of a single charge
+        content:
+          application/json:
+            schema:
+              $ref: "#/definitions/BiasDetectionRequest"
+      responses:
+        200:
+          description: >
+            Returns the estimated racial discrepancy for the recieved
+            charged defendant's profile as well as a measure of relative
+            severity of estimated racial discrepancy and the model used
+            to make the estimate.
+          content:
+            application/json:
+              schema:
+                $ref: "#definitions/BiasDetectionResponse"
+        500:
+          description: Insufficient matching records
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    description: Descriptive message about why the data is invalid.
+
+# schemes:
+# - "https"
+# - "http"
 
 definitions:
   Sentence:
