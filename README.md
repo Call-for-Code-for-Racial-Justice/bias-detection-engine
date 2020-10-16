@@ -1,4 +1,4 @@
-# Bias Diagnostics Engine 
+# Bias and Disparity Detection Engine 
 
 This solution starter was created by technologists from IBM.
 
