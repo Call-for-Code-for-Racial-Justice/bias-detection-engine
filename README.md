@@ -49,8 +49,6 @@ A new class of “Tech for Good" solutions, apps and platforms will strive to in
 
 ## 3. Idea
 
-XXXXXXXXXXXXXXXXX
-
 ![Architecture](/images/Open%20Sentencing%20Architecture%20Process%20Flow%20-%20Oct%2017.png)
 
 ## 4. Functionality - How it works - how technology can help detect and highlight racial disparities in datasets related to the Open Sentencing process pipeline 
