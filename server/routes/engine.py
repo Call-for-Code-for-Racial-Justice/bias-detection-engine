@@ -1,3 +1,4 @@
+import os
 from flask import jsonify, request
 from server import app
 
@@ -78,24 +79,25 @@ def mean_difference(y_true, y_pred, prot_attr=None):
 def sentencing_disparity():
     data = request.json  # TODO: verify
 
-    df = pd.read_csv('../data/simulated_data_v0.4.csv', index_col=0).set_index(['Case ID'])#, 'Race', 'Gender', 'Citizenship'])
+    data_file = os.path.join(os.path.dirname(__file__), '../../data/simulated_data_v0.4.csv')
+    df = pd.read_csv(data_file, index_col=0).set_index(['Case ID'])#, 'Race', 'Gender', 'Citizenship'])
     # fp = pd.concat([df.pop(c) for c in df.columns if c.startswith('FP')], axis=1)
     sent = pd.concat([df.pop(c) for c in df.columns[-5:]], axis=1)
 
     charge = df['Alleged Crime'] == data['charge_code']
-    amount = df['Amount Range of Drug Possesed'] == data['controlled_substance_quantity_level']
+    amount = sent['Amount Range of Drug Possesed'] == data['controlled_substance_quantity_level']
     race = df['Race'] == data['race']
     gender = df['Gender'] == data['gender']
-
-    sent = sent.loc[charge & amount & race & gender]
-    if len(sent) < 10:
-        return jsonify(message="Insufficient matching records exist in our "
-                "database for this combination of charge, quantity, race, and "
-                "gender."), 500
-
     prison = df['Sentencing'].str.contains('Prison', case=False, na=False)
     not_life = (sent['Estimated Sentence'] != 'life') & (sent['Given Sentence'] != 'life')
-    sent = sent.loc[prison & not_life].astype(int)
+
+    sent = sent.loc[charge & amount & race & gender & prison & not_life].astype(int)
+    if sent.empty:
+        return jsonify(message="Insufficient matching records exist in our "
+                "database for this combination of charge, quantity, race, and "
+                "gender. This may mean cases like this are unlikely to result "
+                "in prison time or that they generally result in life "
+                "sentences."), 500
 
     disparity = np.mean(sent['Given Sentence'] - sent['Estimated Sentence'])
     return jsonify(

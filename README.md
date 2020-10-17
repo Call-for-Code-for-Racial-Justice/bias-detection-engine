@@ -1,4 +1,6 @@
-# Bias Diagnostics Engine
+<<<<<<< HEAD
+# Bias and Disparity Detection Engine for Open Sentencing Solution  
+(for analysis of Federal US Sentencing Comission Datasets only)
 
 This solution starter was created by technologists from IBM.
 
