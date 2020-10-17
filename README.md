@@ -49,7 +49,9 @@ A new class of “Tech for Good" solutions, apps and platforms will strive to in
 
 ## 3. Idea
 
-XXXXXXXXXXXXXXXXXX 
+XXXXXXXXXXXXXXXXX
+
+![Architecture](/images/Diagram%20%231%20for%20ReadMe%20-%20BDDE%20Architecture%20Data%20Set%20Flow%20-%20Oct%2017.png)
 
 ## 4. Functionality - How it works - how technology can help detect and highlight racial disparities in datasets related to the Open Sentencing process pipeline 
 The Bias & Disparity Detection Engine analyzes available historical data and case specific data provided by the Open Sentencing Public Defender to provide the public defense attorney user with insights and bias/disparity indicators for each case. Public defenders can then act immediately on that information to negotiate a better plea or sentence for the defendant.  Scope is currently focused on anlysis of one crime type related to Drug Posession / Trafficking. 
@@ -79,7 +81,7 @@ Initial data science exploratory Jupyter notebooks are available and show analyz
 Notebook #1 shows actual Federal judicial sentencing hostorical datasets and describes the disparity in historical outcomes by race and gender. 
 [Judicial Bias Notebook](/notebooks/judicial_bias.ipynb) - 
 
-Nnotebook #2 shows a view of simulated data fact patterns that reveal that a large proportion of black defendants are offered and take a plea bargain deal which results in a disportionately negative deviation from the Federal Sentencing Guidelines mid-point.
+Notebook #2 shows a view of simulated data fact patterns that reveal that a large proportion of black defendants are offered and take a plea bargain deal which results in a disportionately negative deviation from the Federal Sentencing Guidelines mid-point.
 ![Judicial Bias](/images/Judicial_Bias.png)
 
 
@@ -112,7 +114,7 @@ XXXXXXXX NOTE TO John / Boz...  put Hema Notebook url here-----   https://github
 **Example 3: Federal Sentencing Data Simulated historical data to supplement actual historical data collected from US Sentencingi Commission **   
 
 XXXXXXXX NOTE TO John / Boz...  put KateNotebook url here----- https://github.com/Call-for-Code-for-Racial-Justice/bias-detection-engine/blob/master/notebooks/weighted_drug_trafficking_data.ipynb
-Due to complressed Call for Code timeline, a set of simulated historical datasets were created to reflect trends indicated in smaller amount of actual historical sentencing data captured in Dataset #2 collected from publically available interactive data found on United States Sentencing Commissioni public portal.   
+Due to compressed Call for Code timeline, a set of simulated historical datasets were created to reflect trends indicated in smaller amount of actual historical sentencing data captured in Dataset #2 collected from publically available interactive data found on United States Sentencing Commissioni public portal.   
 
 **Example 4: BDDE Data output dashboard analysis results to be passed back to Open Sentencing Solution Aggregrator**
 XXXXXXXXXXX  NOTE to John / Box   put Sam Notebook link here https://github.com/Call-for-Code-for-Racial-Justice/bias-detection-engine/blob/master/notebooks/open_sentencing_demo.ipynb
@@ -138,7 +140,7 @@ XXXXX  John / Box... please add link here ----  https://github.com/Call-for-Code
 - Jupyter Notebooks and D3 Visualization Library using
 
 ## 9. Vision - Fully Scaled IBM Disparity Detection and Bias Diagnostics Engine
-- IBM Cloud will play a prominent role in our solution, though we will use Openshift to ensure multi-cloud capability. IBM Data and AI capabilities such as natural language understanding, geospatial analysis, and big data analytics will play a critical role in an overall solution to end systemic racism. By providing bindings into key IBM cloud capabilities like machine learning, we will be able to analyze structured data in any sequential pipeline or funnel affecting black lives, identifying key areas of disparity for each step, end to end. Moreover, we will provide a solution to collect and bind semi-structured and unstructured text associated with any step in a structured process we analyze. Using IBM storage and database technology, we will be able to accept and federate large data volumes in a secure fashion and perform any and all forms of analysis that might be required to analyze that process. IBM data analysis capabilities will then position users to analyze relationships among pipelines, quantifying their cumulative effect in distilling and amplifying systemic racism and its impact on the lives experience of black persons. We have established relationships with advanced practitioners who would be interested in approaching this topic of mathematically quantifying racial bias from an AI Big Data and quantification perspective
+- IBM Cloud will play a prominent role in our solution, though we will use Openshift to ensure multi-cloud capability. IBM Data and AI capabilities such as natural language understanding, geospatial analysis, and big data analytics will play a critical role in an overall solution to end systemic racism. By providing bindings into key IBM cloud capabilities like machine learning, we will be able to analyze structured data in any sequential pipeline or funnel affecting black lives, identifying key areas of disparity for each step, end to end. Moreover, we will provide a solution to collect and bind semi-structured and unstructured text associated with any step in a structured process we analyze. Using IBM storage and database technology, we will be able to accept and federate large data volumes in a secure fashion and perform any and all forms of analysis that might be required to analyze that process. IBM data analysis capabilities will then position users to analyze relationships among pipelines, quantifying their cumulative effect in distilling and amplifying systemic racism and its impact on the lives experience of black persons. We have established relationships with advanced practitioners who would be interested in approaching this topic of mathematically quantifying racial bias from an AI Big Data and quantification perspective.
 
 - [AI Fairness 360](https://github.com/Trusted-AI/AIF360). As a stretch goal, during the fortification period, we will add selected features to provide an automated front end for selected AI Fairness 360 algorithms.  Alternatively, on the advice of the CFC Core Team, DE's, and IBM Fairness 360 owners, we may receive data and process it to allow for Fairness 360 to use existing APIs and data access methods.
 
@@ -197,6 +199,6 @@ a defining statistical bias in a machine learning model and demonstrate how to p
 - 5 Types of bias & how to eliminate them in your machine learning project: - Sample, Exclusion, Observer, Prejudice, Measurement bias. An introduction and an example to each   https://towardsdatascience.com/5-types-of-bias-how-to-eliminate-them-in-your-machine-learning-project-75959af9d3a0
 
 ## 12. License
-This project is licensed under the Apache 2 License - see the [LICENSE](/LICENSE) file for details
+This project is licensed under the Apache 2 License - see the [LICENSE](/LICENSE) file for details.
 
 - Content license pending legal guidance
