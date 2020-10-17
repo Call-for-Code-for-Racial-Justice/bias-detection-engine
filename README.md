@@ -62,18 +62,20 @@ By leveraging existing and enhanced IBM technologies like AI Fairness 360 and Bi
 The BDDE will have a cloud based API that will receive a case specific dataset from the Open Sentencing Solution Aggregator in order to determine which Federal Sentencing Guidelines should be applied as relevant for the defendant being charged. The BDDE compares the Federal Sentencing Guidelines midpoint against historical outcomes of similiarly charged defendants. Success is achieved when the BDDE isolates the positive or negative devidation (in number of months) historially applied in actual sentening outcomes in that jurisdiction and passes the results of that analysis back to the Open Sentencing Solution Aggregator for presentation to the Public Defender via the solution's Report Generator.
 
 Critical components of the BDDE outputs will be fed back to the Open Sentencing Aggregator via APIs and will provide analytic and contextual insights that include:
-1. # of similarly charged Sentencing Documents evaluated
+1. \# of similarly charged Sentencing Documents evaluated
 2. % white male vs % black male reflected in the historical pull of Sentencing documents
 3. % white males with positive and negative deviations from sentencing guidelines
 4. % black males with positive and negative  deviations 
 5. Nature of deviations by demographics (ie plea deals, min vs max judgments, fines assessed, etc) 
 
 
-![Architecture](/images/Architecture.png)
-
 ## 5. Architecture -  Bias & Disparity Detection Engine Architecture
 
 NOTE TO John W / Boz...  insert Diagram #1 here please 
+
+
+![Architecture](/images/Architecture.png)
+
 
 
 ## 6. Prototype - Working Code
