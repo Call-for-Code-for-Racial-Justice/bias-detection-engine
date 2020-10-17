@@ -51,7 +51,7 @@ A new class of “Tech for Good" solutions, apps and platforms will strive to in
 
 XXXXXXXXXXXXXXXXX
 
-![Architecture](/images/Diagram%20%231%20for%20ReadMe%20-%20BDDE%20Architecture%20Data%20Set%20Flow%20-%20Oct%2017.png)
+![Architecture](/images/Open%20Sentencing%20Architecture%20Process%20Flow%20-%20Oct%2017.png)
 
 ## 4. Functionality - How it works - how technology can help detect and highlight racial disparities in datasets related to the Open Sentencing process pipeline 
 The Bias & Disparity Detection Engine analyzes available historical data and case specific data provided by the Open Sentencing Public Defender to provide the public defense attorney user with insights and bias/disparity indicators for each case. Public defenders can then act immediately on that information to negotiate a better plea or sentence for the defendant.  Scope is currently focused on anlysis of one crime type related to Drug Posession / Trafficking. 
