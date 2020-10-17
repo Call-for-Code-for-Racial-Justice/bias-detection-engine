@@ -48,7 +48,8 @@ A new class of “Tech for Good" solutions, apps and platforms will strive to in
 3. These problems are hardened by fact that many bodies of authority may continue to deny the existence of implicit bias and Systemic Racism.  Therefore mathematically grounded technology like that presented with the Bias and Disparity Detection Engine will be extremely critical to ensure proper progress can be made in efforts to address societal and structural factors that lend themselves to racially biased outcomes.
 
 ## 3. What's the Idea behind the Bias & Disparity Detecioni Engine 
-Here's how technology can help detect and highlight racial disparities in datasets related to the Call for Code Open Sentencing Solution process pipeline 
+Here's how technology can help detect and highlight racial disparities in datasets related to the Call for Code Open Sentencing Solution process pipeline
+
 ![Architecture](/images/Diagram%20%231%20for%20ReadMe%20-%20BDDE%20Architecture%20Data%20Set%20Flow%20-%20Oct%2017.png)
 
 ## 4. Functionality - How the Bias & Disparity Detection Engine works with the Open Sentencing Solution  
