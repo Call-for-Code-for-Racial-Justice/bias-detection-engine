@@ -22,7 +22,7 @@ This solution starter was created by technologists from IBM.
 ## 1. Team
 
 * Denise Knorr - Product Manager
-* Boz Handy Bosma PhD - IBM Academy of Technology, Master Inventor (AIF360)
+* Boz Handy Bosma PhD - Vice-President IBM Academy of Technology
 * Sam Hoffman - AIF360 Developer
 * Margriet Groenendijk PhD - Data & AI Developer Advocate   
 * Hema Veeradhi - Red Hat Software Engineer    
@@ -38,25 +38,23 @@ This solution starter was created by technologists from IBM.
 
 ### Problem Statement - Reason why deployment of this type of Bias detection technology is a so critical at this moment in time
 
-A new class of “Tech for Good" solutions, apps and platforms will strive to inform outcomes that can be mathematically assessed and validated as being free of racial bias.  
+A new class of “Tech for Good" solutions, apps and platforms will strive to inform outcomes that can be mathematically assessed and validated as being free of racial bias.
 
-1. This new class of solutions that prioritize the minimization of outcomes infected by implicit racial bias, will need leading edge technology and newly developed interface protocols to effectively serve as a universally accepted fair and “Credible Arbiter” of bias and other discriminatory variables that might negatively contribute to negative racial disparity in outcomes associated with the objectives of the solution or application.
+1. This new class of solutions prioritizes the minimization of outcomes infected by implicit racial bias and replicated disparities. This will need leading edge technology and newly developed interface protocols to effectively serve as a universally accepted fair and “Credible Arbiter” of bias and other discriminatory variables.
 
 2. Without validated and benchmarked models for consistent attribution and remediation of implicit racial bias, solutions like CFCRF Open Sentencing might have diminished ability to deliver insight and outcomes that can be universally seen as mathematically and repeatably accurate in identifying and diagnosing racial bias as it may exist in the process pipeline and datasets associated with the functions of the solution.
-    *	A random / one-off approach to detecting and remediating implicit racial bias in processes and code will not be sufficient for solutions like Open Sentencing and may lead to ethics exposures related to how the sicence of bias detection is applied. 
+    *	A random / one-off approach to detecting and remediating implicit racial bias in processes and code will not be sufficient for solutions like Open Sentencing and may lead to ethics exposures related to how the sicence of bias detection is applied.
 
-3. These problems are hardened by fact that many bodies of authority (governmental / corporate / financial) may continue to deny the existence of Implicit bias and Systemic Racism.  Therefore mathematically grounded technology like the Disparity Detection and Bias Diagnostics Engine will be extremely critical to ensure proper progress can be made in efforts to address societal and structural factors that lend themselves to racially biased outcomes.  
+3. These problems are hardened by fact that many bodies of authority (governmental / corporate / financial) may continue to deny the existence of Implicit bias and Systemic Racism.  Therefore mathematically grounded technology like the Bias and Disparity Detection Engine will be extremely critical to ensure proper progress can be made in efforts to address societal and structural factors that lend themselves to racially biased outcomes.
 
 ## 3. Idea
 
-![Elevator pitch](https://github.com/MargrietGroenendijk/bias-detection-engine/blob/master/figures/Bias%20Engine%20-%20How%20it%20Works%20Sep%201.png)
+XXXXXXXXXXXXXXXXXX 
 
-## 4. Functionality - How it works & How IBM Technology can help detect and highlight racial disparities in datasets related to the Open Sentencing process pipeline 
+## 4. Functionality - How it works - how technology can help detect and highlight racial disparities in datasets related to the Open Sentencing process pipeline 
 The Bias & Disparity Detection Engine analyzes available historical data and case specific data provided by the Open Sentencing Public Defender to provide the public defense attorney user with insights and bias/disparity indicators for each case. Public defenders can then act immediately on that information to negotiate a better plea or sentence for the defendant.  Scope is currently focused on anlysis of one crime type related to Drug Posession / Trafficking. 
 
 By leveraging existing and enhanced IBM technologies like AI Fairness 360 and Big Data Analytics  the Bias & Disparity Detection Engine will provide benchmarked hardened data analysis protocols detecting disparity in how Federal Sentencing Guidelines are applied in final sentencing outcomes based on aggregation of historical sentencing outcomes by race.
-
-![How it works](https://github.com/MargrietGroenendijk/bias-detection-engine/blob/master/figures/Screen%20Shot%202020-09-01%20at%2012.45.58%20PM.png)
 
 ### Success & Proof Points - What proves success
 The BDDE will have a cloud based API that will receive a case specific dataset from the Open Sentencing Solution Aggregator in order to determine which Federal Sentencing Guidelines should be applied as relevant for the defendant being charged. The BDDE compares the Federal Sentencing Guidelines midpoint against historical outcomes of similiarly charged defendants. Success is achieved when the BDDE isolates the positive or negative devidation (in number of months) historially applied in actual sentening outcomes in that jurisdiction and passes the results of that analysis back to the Open Sentencing Solution Aggregator for presentation to the Public Defender via the solution's Report Generator.
@@ -71,9 +69,6 @@ Critical components of the BDDE outputs will be fed back to the Open Sentencing 
 
 ## 5. Architecture -  Bias & Disparity Detection Engine Architecture
 
-NOTE TO John W / Boz...  insert Diagram #1 here please 
-
-
 ![Architecture](/images/Diagram%20%231%20for%20ReadMe%20-%20BDDE%20Architecture%20Data%20Set%20Flow%20-%20Oct%2017.png)
 
 
@@ -84,7 +79,7 @@ Initial data science exploratory Jupyter notebooks are available and show analyz
 Notebook #1 shows actual Federal judicial sentencing hostorical datasets and describes the disparity in historical outcomes by race and gender. 
 [Judicial Bias Notebook](/notebooks/judicial_bias.ipynb) - 
 
-Nnotebook #2 shows a view of simulated data fact patterns that reveal that a large proportion of black defendants are offered and take a plea bargain deal which results in a disportionately negative deviation from the Federal Sentencing Guidelines mid-point. .
+Nnotebook #2 shows a view of simulated data fact patterns that reveal that a large proportion of black defendants are offered and take a plea bargain deal which results in a disportionately negative deviation from the Federal Sentencing Guidelines mid-point.
 ![Judicial Bias](/images/Judicial_Bias.png)
 
 
