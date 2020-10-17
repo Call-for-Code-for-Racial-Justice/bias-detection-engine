@@ -74,8 +74,7 @@ Critical components of the BDDE outputs will be fed back to the Open Sentencing 
 NOTE TO John W / Boz...  insert Diagram #1 here please 
 
 
-![Architecture](/images/Architecture.png)
-
+![Architecture](/images/Diagram%20%231%20for%20ReadMe%20-%20BDDE%20Architecture%20Data%20Set%20Flow%20-%20Oct%2017.png)
 
 
 ## 6. Prototype - Working Code
