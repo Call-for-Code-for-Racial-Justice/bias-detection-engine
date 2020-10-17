@@ -31,135 +31,107 @@ This solution starter was created by technologists from IBM.
 * Demi Ajayi PhD - Prod Designer – AI Natural Language
 * Otis Smart PhD - AI Data Scientist - Machine Learning
 
-## 2. Overview - Racial Disparity & Bias Diagnostics Engine
+## 2. Overview - Bias & Disparity Detection Engine (BDDE) for Open Sentencing Solution Federal US Sentencing Comission Data Sets Only 
 
-* The Disparity Detection and Bias Diagnostics Engine will be powered by IBM’s [AI Fairness 360](https://github.com/Trusted-AI/AIF360) sourced functionality refined to specifically isolate racial disparity in technology enabled outcomes
-* The Engine diagnoses bias related causes for the disparity that is detected and isolated to recommend remediation
-* Bias Engine will also monitor outcomes and measure alignment of outcomes to the desired objective of being a fair outcome that is free of racially biased influence
+* The Bias & Disparity Detection Engine (BDDE) will be powered by IBM’s [AI Fairness 360](https://github.com/Trusted-AI/AIF360) sourced functionality refined to specifically isolate disparity in Federal sentecning outcomes between black and white defendants 
+* The BDDE accesses disparity by comparing the average months of encarceration perscribed in Federal Sentencing Guidelines against a historical profile of actual sentences for similiar Federal charges aggregated by racial demographics
 
 ### Problem Statement - Reason why deployment of this type of Bias detection technology is a so critical at this moment in time
 
-A new class of “anti-bias / anti-systemic Racism” solutions, apps and platforms  strives to have outcomes that can be mathematically assessed, validated verifiabially and attributed to be “Bias-Free”.
+A new class of “Tech for Good" solutions, apps and platforms will strive to inform outcomes that can be mathematically assessed and validated as being free of racial bias.  
 
 1. This new class of solutions that prioritize the minimization of outcomes infected by implicit racial bias, will need leading edge technology and newly developed interface protocols to effectively serve as a universally accepted fair and “Credible Arbiter” of bias and other discriminatory variables that might negatively contribute to negative racial disparity in outcomes associated with the objectives of the solution or application.
 
-2. Without validated and benchmarked models for consistent attribution and remediation of implicit racial bias, the full range of new and innovative anti-bias solutions will have diminished ability to deliver outcomes that can be universally seen as mathematically and repeatably accurate in diagnosing and remediating that racial bias.
-    *	A random / one-off approach to detecting and remediating implicit racial bias will not be sufficient to drive outcomes accepted / acknowledged as bias-free across a large ecosystem of a new class of anti-bias solutions.
+2. Without validated and benchmarked models for consistent attribution and remediation of implicit racial bias, solutions like CFCRF Open Sentencing might have diminished ability to deliver insight and outcomes that can be universally seen as mathematically and repeatably accurate in identifying and diagnosing racial bias as it may exist in the process pipeline and datasets associated with the functions of the solution.
+    *	A random / one-off approach to detecting and remediating implicit racial bias in processes and code will not be sufficient for solutions like Open Sentencing and may lead to ethics exposures related to how the sicence of bias detection is applied. 
 
-3.	Furthering the problem is that effects of bias can be fed into a single solution’s outcomes via multiple inputs / steps in that single solution’s processes, while at the same time some steps or processes associated with the solution’s outcome may be mathematically bias-free or neutral.  
-    *	This means that the bias diagnostics capabilities need to be sufficient to assess the *cumulative* effect of *multiple* sources of bias throughout the entire “process pipeline” within a single solution, so that if any single “bias-infected” input source or data set within the solution’s process pipeline goes undiagnosed, the outcome may still reflect elements of racial bias. In other words, neutral processes are not sufficient in-and-of themselves to prevent implicit racial bias from infecting a solution’s outcomes.
-
-These problems are hardened by fact that many bodies of authority (governmental / corporate / financial) may continue to deny the existence of Implicit bias and Systemic Racism.  Therefore mathematically grounded technology like the Disparity Detection and Bias Diagnostics Engine will be extremely critical to ensure proper progress can be made in efforts to address societal and structural factors that lend themselves to racially biased outcomes.  
+3. These problems are hardened by fact that many bodies of authority (governmental / corporate / financial) may continue to deny the existence of Implicit bias and Systemic Racism.  Therefore mathematically grounded technology like the Disparity Detection and Bias Diagnostics Engine will be extremely critical to ensure proper progress can be made in efforts to address societal and structural factors that lend themselves to racially biased outcomes.  
 
 ## 3. Idea
 
 ![Elevator pitch](https://github.com/MargrietGroenendijk/bias-detection-engine/blob/master/figures/Bias%20Engine%20-%20How%20it%20Works%20Sep%201.png)
 
-## 4. Functionality - How it works & How IBM Technology can help Detect, Diagnosis and Remediate Implicit Racial Bias
+## 4. Functionality - How it works & How IBM Technology can help detect and highlight racial disparities in datasets related to the Open Sentencing process pipeline 
+The Bias & Disparity Detection Engine analyzes available historical data and case specific data provided by the Open Sentencing Public Defender to provide the public defense attorney user with insights and bias/disparity indicators for each case. Public defenders can then act immediately on that information to negotiate a better plea or sentence for the defendant.  Scope is currently focused on anlysis of one crime type related to Drug Posession / Trafficking. 
 
-1. By leveraging existing (enhanced) IBM technologies like AI Fairness 360, IBM can provide benchmarked hardened models and interface protocols for disparity and bias diagnostics functionality (**aka a full functioning Bias Diagnostics Engine**) that can be universally applied via Open Source cloud enablement by a varied range of internal and external 3rd party solutions targeting bias-free outcomes.
-
-2. IBM technology can serve as a scientifically sourced “CREDIBLE-ARBITER" of disparity and racial bias by leveraging IBM’s unique and deep brain-trust of research and expertise needed to adequately assign algorithms sufficient to digitize and quantify bias infused context and concepts.
-
-3. PRIVACY PRESERVING will be required due to the nature of most data sets, so IBM Cloud Security will be a critical technology enabler for this new class of anti-bias / anti-racism solutions and required for the Bias Engine to function optimally, since many of the most relevant data sets needed are those that will require maximum levels of security and privacy similar to the levels of security IBM provides to Financial and Public Sector solutions and platforms.
+By leveraging existing and enhanced IBM technologies like AI Fairness 360 and Big Data Analytics  the Bias & Disparity Detection Engine will provide benchmarked hardened data analysis protocols detecting disparity in how Federal Sentencing Guidelines are applied in final sentencing outcomes based on aggregation of historical sentencing outcomes by race.
 
 ![How it works](https://github.com/MargrietGroenendijk/bias-detection-engine/blob/master/figures/Screen%20Shot%202020-09-01%20at%2012.45.58%20PM.png)
 
 ### Success & Proof Points - What proves success
-The Disparity Detection and Bias Diagnostics Engine will have a cloud based API that will receive datasets and process pipelines from multiple types of anti-bias focused solutions and apps in a way that will provision the engine to execute query, selection, presentation, and visualization functions against that data.
+The BDDE will have a cloud based API that will receive a case specific dataset from the Open Sentencing Solution Aggregator in order to determine which Federal Sentencing Guidelines should be applied as relevant for the defendant being charged. The BDDE compares the Federal Sentencing Guidelines midpoint against historical outcomes of similiarly charged defendants. Success is achieved when the BDDE isolates the positive or negative devidation (in number of months) historially applied in actual sentening outcomes in that jurisdiction and passes the results of that analysis back to the Open Sentencing Solution Aggregator for presentation to the Public Defender via the solution's Report Generator.
 
-Critical components of the engine's outputs will be fed back to the requesting solutions via APIs and will provide analytic and contextual insights that include:
+Critical components of the BDDE outputs will be fed back to the Open Sentencing Aggregator via APIs and will provide analytic and contextual insights that include:
+1. # of similarly charged Sentencing Documents evaluated
+2. % white male vs % black male reflected in the historical pull of Sentencing documents
+3. % white males with positive and negative deviations from sentencing guidelines
+4. % black males with positive and negative  deviations 
+5. Nature of deviations by demographics (ie plea deals, min vs max judgments, fines assessed, etc) 
 
-1. A visualization of the process pipeline for the served app or solution showing how and where disparity was detected
-2. A statistical analysis to indicate where and how bias informed the disparity
-3. A simulation to model what fair results would look like
 
 ![Architecture](/images/Architecture.png)
 
-## 5. Architecture -  Bias Diagnostics Engine Architecture
+## 5. Architecture -  Bias & Disparity Detection Engine Architecture
 
-### The Racial Disparity Funnel
-Implicit Bias and variables leading to racial disparity are structural inputs into the decision making process pipeline that leads to outcomes. As such disparity and bias can work their way through the process pipeline to filter out equitable or racially fair analysis along the process pipeline resulting in racial disparity in the outcome.  This is the case regardless of whether individual processes or inputs are in-and-of themselves neutral.  As long as there is any input source or data element that is infected with implicit bias or other variables that lead to racial disparity that work their way through hiring funnel, will lead to disparities in the outputs. The hiring process is a seven-step process that includes: sourcing, application, screening, shortlist, hiring manager/interview, offer/negotiation, and candidate decision. In this solution we are not directly addressing the sourcing step, but rather focusing on the pipeline from application to being hired or dispositioned. Our hope is that by showing bias at each step along the pipeline, we can help companies understand why they may not be achieving the diversity they desire in their employee base.  
+NOTE TO John W / Boz...  insert Diagram #1 here please 
 
-![Hiring Funnel](/images/Bias%20Engine%20Funnel%20-%20Sep%203.png)
 
 ## 6. Prototype - Working Code
 
-We have created some initial data science exploratory Jupyter notebooks [here.](/notebooks)
-The notebooks analyze simulated HR and Judicial data sets to depict the bias in various stages of either HR recruiting process or legal procedure for the Black community.
+Initial data science exploratory Jupyter notebooks are available and show analyze of simulated Federal Sentencing Outcomes data sets as comopared to Federal Sentencing Guidelines. [here.](/notebooks)
 
-1. [Recruiting Bias Notebook](/notebooks/recruiting_bias.ipynb) - This notebook analyzes the simulated HR recruiting datasets and describes the bias detected in each stage of the recruiting process measured by disparate impact. The disparate impact is simply the ratio of *selection rates*, or the proportion of applicants who move on to the next stage, between one group and all the others. Therefore, we can look at selection rates themselves to see which groups are disadvantaged.
+Notebook #1 shows actual Federal judicial sentencing hostorical datasets and describes the disparity in historical outcomes by race and gender. 
+[Judicial Bias Notebook](/notebooks/judicial_bias.ipynb) - 
 
-![Hiring Bias](/images/Hiring_Bias.png)
-
-Darker red colored squares are worse than average and darker blue squares are better than average. Blank squares mean there is no data. Again, we can clearly see bias in the shortlisting stage as all three black intersectional groups are disadvantaged (redder) compared to the others.
-
-2. [Judicial Bias Notebook](/notebooks/judicial_bias.ipynb) - This notebook analyzes the simulated judicial crime datasets and describes the bias detect among different races in each stage of the legal procedure measured by disparate impact.
-
+Nnotebook #2 shows a view of simulated data fact patterns that reveal that a large proportion of black defendants are offered and take a plea bargain deal which results in a disportionately negative deviation from the Federal Sentencing Guidelines mid-point. .
 ![Judicial Bias](/images/Judicial_Bias.png)
 
-This is one view of our data. We can clearly see that a large proportion of black defendants take a plea bargain.
 
-## 7. Datasets - Data Model Example
-The data sets used in our initial analysis/notebooks can be found [here.](/data)
-Initial input data sets will be generated by the requesting anti-bias solution or app.
+## 7. Datasets - Data Model Examples and Links to related Notebooks
+The data sets used in our initial analysis/notebooks can be sourced from publically available data found in the United States Sentencing Commissioni public domain [here.](/data)
 
-**Sentencing Reform Solution API Interface with Bias Detection Engine**
-The Sentencing Reform solution will pass the bias detection engine information about the desired outcomes with objective of receiving back recommendations, links to supporting data models, reasons the system gave the recommendations, plus the ability to annotate documents to explain its reasoning and show evidence. 
+Initial input dataset describing the charges against the defendant will be provided to the BDDE by the Aggregator in the OpenSentencing Solutioin as provided by the Public Defender user of the solution. 
 
-**Example 1: Data relevant to public defenders' tool including:**
-- How well does the crime fit a charge?
-- How extreme is that charge compared to the reality of the crime?
-- Statistical component - 90% like this crime, 45% like this one
-- Have similar crimes in the jurisdiction been charged the same way?
-- Case precedent  - what other cases are similar to this one?
+**Dataset #1 Example : Bias & Disparity Detection Engine acccepts initial dataset from Open Sentencing Solutioin Aggregator**
+The Open Sentencing solution will pass the BDDE the initial dataset describing the defendants' charges, race, gender, and prior history based on data input into the solutions questionnaire by the user Public Defendant or Defense Attorney  
 
-**Example 2: Sentencing Reform Outcomes Data models**
+
+**Dataset #2 Example : Sentencing Guidelines and actual historical sentencing outcomes captured from Federal Sentencing Commission domain to isolate specific fact paterns**
+XXXXXXXX NOTE TO John / Boz...  put Hema Notebook url here-----   https://github.com/embrace-call-for-code/bias-detection-engine/tree/master/notebooks
 - Similar crimes to compare
 - Average sentencing data by conviction
 - Disparities in sentencing by race
-- How bias is currently showing up in the charging outcomes - Especially for crimes similar to this one
+- How deviation from guidelines is currently showing up in the charging outcomes - Especially for crimes similar to this one
 - Lesser charges for privileged groups?
 - The "priors" of the person accused: prior convictions
 - Demographic information about the defendant
-- Personal history information about the defendant
 - Factors that will help the accused decide whether to go to trial - hard data based on the charges
 - Likely outcome of bail hearing - what percentage get bail, what percentage sit in jail and for how long
 - If you plead not guilty, what are your chances of being found guilty vs. innocent
 - If you're found guilty, what are the usual sentences?
 - Strength of evidence?
-- How likely is it that they're actually innocent?
 - At least from the initial data, victim factors,keywords or tone flags that might indicate bias in the case documents
 - What happens after people serve their sentence? By sentence type. 
-- Likelihood to re-offend or be rehabilitated
-- Help the public defender argue for a different option
 
-**Example 3: Data relevant to public dashboard**
-- Using the datasets and outcomes of the Bias Detection Engine create public dashboards including visualizations to explain the following:
-- How bias is currently showing up in the sentencing outcomes: aggregate data
-- Ideally, show the data per specific judge, prosecutor to help voters
-- Are the judges acting in accordance with their public statements?
-- Less ideally, show the data per jurisdiction
-- Show the data by type of crime
-- Some kind of "bias score"?
-- Evidence and sources
-- Are there other types of sentences that would have a better impact/prevent the crime from occurring again?
+**Example 3: Federal Sentencing Data Simulated historical data to supplement actual historical data collected from US Sentencingi Commission **   
 
-**Example 4: Sentencing Reform data queries and analysis that help shape policy**
-- Are mandatory sentencing guidelines contributing to biased outcomes?
-- Did the person convicted have good legal representation?
-- Type of representation: self, public defender, private attorney
-- Disparities in sentencing by type of representation (Some AI, some not)
-- What happens after people serve their sentence? By sentence type.   (Some AI, some not)
-- Likelihood to re-offend or be rehabilitated
-- What sentence could make them less likely to re-offend
-- Mental health treatment for example
-- Routing homeless people to social services
-- Jail time - - Probation - - Home arrest
-- School-to-prison pipeline?
+XXXXXXXX NOTE TO John / Boz...  put KateNotebook url here----- https://github.com/Call-for-Code-for-Racial-Justice/bias-detection-engine/blob/master/notebooks/weighted_drug_trafficking_data.ipynb
+Due to complressed Call for Code timeline, a set of simulated historical datasets were created to reflect trends indicated in smaller amount of actual historical sentencing data captured in Dataset #2 collected from publically available interactive data found on United States Sentencing Commissioni public portal.   
+
+**Example 4: BDDE Data output dashboard analysis results to be passed back to Open Sentencing Solution Aggregrator**
+XXXXXXXXXXX  NOTE to John / Box   put Sam Notebook link here https://github.com/Call-for-Code-for-Racial-Justice/bias-detection-engine/blob/master/notebooks/open_sentencing_demo.ipynb
+1. # of similarly charged Sentencing Documents evaluated
+2. Show the data by type of crime2. 
+3. % white male vs % black male reflected in the historical pull of Sentencing documents
+4. % white males with positive and negative deviations from sentencing guidelines
+5. % black males with positive and negative  deviations 
+6. Nature of deviations by demographics (ie plea deals, min vs max judgments, fines assessed, etc)  show the data per jurisdiction
 
 
 ## 8. Technology
+Main Code for BDDE for Open Sentencing Solution is located here
+XXXXX  John / Box... please add link here ----  https://github.com/Call-for-Code-for-Racial-Justice/bias-detection-engine/blob/master/server/routes/engine.py
+
 - For initial version, we are creating a set of python programs with a Flask front end and APIs for organnizations to provide metamodel and instance to be assessed for systemic disparities and biased outcomes.
 - The APIs will enable specification of a steps in a structured process, and to provide sets of data to be analyzed.  We also currently provide python code to generate both unbiased and biased data in order to simulate outcomes for a given metamodel.
 - We will add additional security controls to allow organizations to assess only their own data.
