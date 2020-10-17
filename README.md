@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Bias and Disparity Detection Engine for Open Sentencing Solution  
 (for analysis of Federal US Sentencing Comission Datasets only)
 
