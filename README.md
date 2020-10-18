@@ -41,7 +41,7 @@ A new class of  “Tech for Good" solutions, apps and platforms will strive to i
 
 1.	This new class of solutions prioritizes the minimization of outcomes infected by implicit racial bias and replicated disparities. Such solutions will need leading edge technology and newly developed interface protocols to effectively serve as credible arbiters of bias and other discriminatory variables.
 
-2.Without validated and benchmarked models for consistent attribution of implicit racial bias, solutions like CFCRF Open Sentencing might have diminished ability to deliver the insight and outcomes users need in order to minimize the impact of disparity and bias in outcomes for their clients.
+2.	Without validated and benchmarked models for consistent attribution of implicit racial bias, solutions like CFCRF Open Sentencing might have diminished ability to deliver the insight and outcomes users need in order to minimize the impact of disparity and bias in outcomes for their clients.
     *	A random / one-off approach to detecting racial bias and disparity in processes and algorithms will not be sufficient for solutions like Open Sentencing and may lead to ethics exposures related to how the science of bias detection is applied in solution specific scenarios
 
 3. These problems are hardened by fact that many bodies of authority may continue to deny the existence of implicit bias and Systemic Racism. Therefore, mathematically grounded technology like that presented with the Bias and Disparity Detection Engine will be extremely critical to ensure proper progress can be made in efforts to address societal and structural factors that lend themselves to racially biased outcomes.
