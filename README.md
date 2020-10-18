@@ -75,17 +75,14 @@ Initial data science exploratory Jupyter notebooks are available and show struct
 
 **Notebook #B** BDDE [data analysis code](https://github.com/Call-for-Code-for-Racial-Justice/bias-detection-engine/blob/master/notebooks/open_sentencing_demo.ipynb)
 
-**Notebook #C** BDDE [Disparity Detection demo dode](https://nbviewer.jupyter.org/github/embrace-call-for-code/bias-detection-engine/blob/master/notebooks/judicial_bias.ipynb) 
+<!-- **Notebook #C** BDDE [Disparity Detection demo dode](https://nbviewer.jupyter.org/github/embrace-call-for-code/bias-detection-engine/blob/master/notebooks/judicial_bias.ipynb). Todo:  addd this back when 404 error is resolved. (from Boz) -->
 
 ## 7. Datasets - Data Model Examples and Links to Dataset Notebooks
 The data sets used in our initial analysis were sourced from publicly available interactive data found in the United States Sentencing Commission public domain.
 
 **BDDE Dataset #1** - Input to BDDE from Open Sentencing Solution Aggregator Bias & Disparity Detection Engine accepts initial dataset from Open Sentencing Solution Aggregator which will pass the BDDE the initial dataset describing the defendants' charges, race, gender, and prior history based on data input into the solutions questionnaire by the user Public Defendant or Defense Attorney  
 
-**BDDE Dataset #2 Notebook** https://github.com/embrace-call-for-code/bias-detection-engine/tree/master/notebooks : Sentencing Guidelines and actual historical sentencing outcomes
-                     
-                     X-X-X-X-X-X-X- NOTE Boz...  put hyperlinks under BDE Dataset #2 Notebook  X-X-X-X-X-X-X-
-Data for analysis captured from Federal Sentencing Commission domain to isolate specific actual sentencing deviation fact paterns This dataset capures Federal Sentencing Guidelines and actual historical sentencing outcomes pulled from interactive data accessed via United States Sentencing Commission interactive datasets
+**BDDE Dataset #2 Notebook**  Sentencing Guidelines and [historical sentencing outcomes](https://github.com/embrace-call-for-code/bias-detection-engine/tree/master/notebooks) Data for analysis captured from Federal Sentencing Commission domain to isolate specific actual sentencing deviation fact paterns This dataset capures Federal Sentencing Guidelines and actual historical sentencing outcomes pulled from interactive data accessed via United States Sentencing Commission interactive datasets
 - Similar crimes to compare
 - Average sentencing data by conviction
 - Disparities in sentencing by race
@@ -101,10 +98,8 @@ Data for analysis captured from Federal Sentencing Commission domain to isolate 
 - At least from the initial data, victim factors, keywords or tone flags that might indicate bias in the case documents
 - What happens after people serve their sentence? By sentence type. 
 
-**BDDE Dataset #3 Notebook https://github.com/embrace-call-for-code/bias-detection-engine/blob/master/notebooks/weighted_drug_trafficking_data.ipynb   :Simulated historical data to supplement actual historical data collected from US Sentencing Commission**  
-Due to compressed Call for Code timeline, a set of simulated historical datasets were created to reflect trends indicated in smaller amount of actual historical sentencing data captured in Dataset #2 collected from publicly available interactive data found on United States Sentencing Commission public portal. This dataset shows a view of simulated data that replicate fact patterns discerned in limited actual historical data collected from United States Sentencing Commission interactive historical outcomes datasets sufficient to reveal that a large proportion of black defendants are offered and take a plea bargain deal which results in a disproportionately negative deviation from the Federal Sentencing Guidelines mid-point
-                     
-                     X-X-X-X-X-X-X- NOTE Boz...  put hyperlinks under BDE Dataset #3 Notebook  X-X-X-X-X-X-X-                    
+**BDDE Dataset #3 Notebook** [Simulated historical data to supplement actual historical data collected from US Sentencing Commission](https://github.com/embrace-call-for-code/bias-detection-engine/blob/master/notebooks/weighted_drug_trafficking_data.ipynb) Due to compressed Call for Code timeline, a set of simulated historical datasets were created to reflect trends indicated in smaller amount of actual historical sentencing data captured in Dataset #2 collected from publicly available interactive data found on United States Sentencing Commission public portal. This dataset shows a view of simulated data that replicate fact patterns discerned in limited actual historical data collected from United States Sentencing Commission interactive historical outcomes datasets sufficient to reveal that a large proportion of black defendants are offered and take a plea bargain deal which results in a disproportionately negative deviation from the Federal Sentencing Guidelines mid-point
+                                      
 ![Judicial Bias](/images/Judicial_Bias.png)
 
  **BDE Dataset #4 Notebook https://github.com/Call-for-Code-for-Racial-Justice/bias-detection-engine/blob/master/notebooks/open_sentencing_demo.ipynb  :BDDE Data output dashboard analysis results to be passed back to Open Sentencing Solution Aggregator**
