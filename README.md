@@ -32,61 +32,60 @@ This solution starter was created by technologists from IBM.
 * Otis Smart PhD - AI Data Scientist - Machine Learning
 
 ## 2. Overview - Bias & Disparity Detection Engine (BDDE) for Open Sentencing Solution Federal US Sentencing Commission Data Sets Only
-•	The Bias & Disparity Detection Engine (BDDE) will be powered by IBM’s AI Fairness 360 sourced functionality refined to specifically isolate disparity in Federal sentencing outcomes of black vs white defendants
-•	The BDDE accesses disparity by comparing the average months of incarceration prescribed in Federal Sentencing Guidelines against a historical profile of actual sentences for similar Federal charges aggregated by racial demographics
+-The Bias & Disparity Detection Engine (BDDE) will be powered by IBM’s AI Fairness 360 sourced functionality refined to specifically isolate disparity in Federal sentencing outcomes of black vs white defendants
+-The BDDE accesses disparity by comparing the average months of incarceration prescribed in Federal Sentencing Guidelines against a historical profile of actual sentences for similar Federal charges aggregated by racial demographics
 
 
-### Problem Statement - Why deployment of this type of Disparity detection technology is a so critical 
+### Problem Statement - Why deployment of this type of disparity detection technology is a so critical 
+A new class of  “Tech for Good" solutions, apps and platforms will strive to inform outcomes that can be quantifiably assessed and validated as not influenced by factors of racial bias and disparity.
 
-A new class of “Tech for Good" solutions, apps and platforms will strive to inform outcomes that can be quantifiablly assessed and validated as not influenced by factors of racial bias and disparity.
+1.	This new class of solutions prioritizes the minimization of outcomes infected by implicit racial bias and replicated disparities. Such solutions will need leading edge technology and newly developed interface protocols to effectively serve as credible arbiters of bias and other discriminatory variables.
 
-1. This new class of solutions prioritizes the minimization of outcomes infected by implicit racial bias and replicated disparities. Such solutions will need leading edge technology and newly developed interface protocols to effectively serve as credible arbiters of bias and other discriminatory variables.
+2.Without validated and benchmarked models for consistent attribution of implicit racial bias, solutions like CFCRF Open Sentencing might have diminished ability to deliver the insight and outcomes users need in order to minimize the impact of disparity and bias in outcomes for their clients.
+    *	A random / one-off approach to detecting racial bias and disparity in processes and algorithms will not be sufficient for solutions like Open Sentencing and may lead to ethics exposures related to how the science of bias detection is applied in solution specific scenarios
 
-2. Without validated and benchmarked models for consistent attribution of implicit racial bias, solutions like CFCRF Open Sentencing might have diminished ability to deliver the insight and outcomes users need in order to minimize the impact of disparity and bias in outcomes for their clients.
-    *	A random / one-off approach to detecting racial bias and disparity in processes and algorithims will not be sufficient for solutions like Open Sentencing and may lead to ethics exposures related to how the sicence of bias detection is applied in solution specific scenairos 
+3. These problems are hardened by fact that many bodies of authority may continue to deny the existence of implicit bias and Systemic Racism. Therefore, mathematically grounded technology like that presented with the Bias and Disparity Detection Engine will be extremely critical to ensure proper progress can be made in efforts to address societal and structural factors that lend themselves to racially biased outcomes.
 
-3. These problems are hardened by fact that many bodies of authority may continue to deny the existence of implicit bias and Systemic Racism.  Therefore mathematically grounded technology like that presented with the Bias and Disparity Detection Engine will be extremely critical to ensure proper progress can be made in efforts to address societal and structural factors that lend themselves to racially biased outcomes.
-
-## 3. What's the Idea behind the Bias & Disparity Detecioni Engine 
+## 3. What's the Idea behind the Bias & Disparity Detection Engine 
 Here's how technology can help detect and highlight racial disparities in datasets related to the Call for Code Open Sentencing Solution process pipeline
 
 ![Architecture](/images/Diagram%20%231%20for%20ReadMe%20-%20BDDE%20Architecture%20Data%20Set%20Flow%20-%20Oct%2017.png)
 
-## 4. Functionality - How the Bias & Disparity Detection Engine works with the Open Sentencing Solution  
-The Bias & Disparity Detection Engine (BDDE) analyzes available historical data against case specific data provided by the Open Sentencing Public Defender to provide the public defense attorney (user) with insights and bias/disparity indicators for each case. Public Defenders can then act immediately on the insight provided by the BDDE to negotiate a better plea or sentence for the defendant. 
+## 4. Functionality - Functionality - How the Bias & Disparity Detection Engine works with the Open Sentencing Solution
+The Bias & Disparity Detection Engine (BDDE) analyzes available historical data against case specific data provided by the Open Sentencing Public Defender to provide the public defense attorney (user) with insights and bias/disparity indicators for each case. Public Defenders can then act immediately on the insight provided by the BDDE to negotiate a better plea or sentence for the defendant.
 
-The BDDE functional scope as related to an original use case presented by the interfaced Open Sentencing Solution is centered on anlysis of one type of Federal Drug Posession / Trafficking charge in order to narrowly demonstrate functionality that may be later used to analyze a broader set of charges and juristictions. 
+The BDDE functional scope as related to an original use case presented by the interfaced Open Sentencing Solution is centered on analysis of one type of Federal Drug Possession / Trafficking charge in order to narrowly demonstrate functionality that may be later used to analyze a broader set of charges and jurisdictions.
 
 By leveraging existing and enhanced IBM technologies like AI Fairness 360 and Big Data Analytics, the BDDE will provide benchmarked hardened data analysis protocols detecting disparity by isolating deviations in how Federal Sentencing Guidelines are applied in final sentencing outcomes based on aggregation of historical sentencing outcomes by race.
 
+
 ### Use Case Proof Points 
-The BDDE will have a cloud based API that will receive a single case specific dataset from the Open Sentencing Solution Aggregator in order to determine which Federal Sentencing Guidelines should be applied as relevant for the defendant being charged. The BDDE then compares the appropriate Federal Sentencing Guidelines midpoint against historical outcomes of similiarly charged defendants. Success is achieved when the BDDE detects / isolates the positive or negative devidations (in number of months) historially applied in actual sentening outcomes in that jurisdiction and passes the results of that analysis back to the Open Sentencing Solution Aggregator for presentation to the Public Defender via the solution's Report Generator.
+The BDDE will have a cloud-based API that will receive a single case specific dataset from the Open Sentencing Solution Aggregator in order to determine which Federal Sentencing Guidelines should be applied as relevant for the defendant being charged. The BDDE then compares the appropriate Federal Sentencing Guidelines midpoint against historical outcomes of similarly charged defendants. Success is achieved when the BDDE detects / isolates the positive or negative deviations (in number of months) historically applied in actual sentencing outcomes in that jurisdiction and passes the results of that analysis back to the Open Sentencing Solution Aggregator for presentation to the Public Defender via the solution's Report Generator.
                      
                      X-X-X-X-X-X-X- NOTE Boz...  add Report Image Here X-X-X-X-X-X-X-
 
-## 5. Architecture -  Bias & Disparity Detection Engine Architecture
+## 5. Architecture -  Bias & Disparity Detection Engine Process Flow
 ![Architecture](/images/Open%20Sentencing%20Architecture%20Process%20Flow%20-%20Oct%2017.png)
 
 
-
 ## 6. Prototype - Working Code Notebooks
-Initial data science exploratory Jupyter notebooks are available and show structure and analysis protocols used for gathering and analyzing publiclly accesed and simulated Federal Sentencing Guidelies and sentencing outcomes data sets
+Initial data science exploratory Jupyter notebooks are available and show structure and analysis protocols used for gathering and analyzing publicly accessed and simulated Federal Sentencing Guidelines and sentencing outcomes data sets
 
-NoteBook #A https://github.com/Call-for-Code-for-Racial-Justice/bias-detection-engine/blob/master/server/routes/engine.py  : BDDE prootype master code outline available here  
+**Notebook #A** https://github.com/Call-for-Code-for-Racial-Justice/bias-detection-engine/blob/master/server/routes/engine.py : BDDE prototype master code outline 
 
-Notebook #B https://github.com/Call-for-Code-for-Racial-Justice/bias-detection-engine/blob/master/notebooks/open_sentencing_demo.ipynb  :  BDDE Master Data analysis code  
+**Notebook #B** https://github.com/Call-for-Code-for-Racial-Justice/bias-detection-engine/blob/master/notebooks/open_sentencing_demo.ipynb : BDDE Master Data analysis code
 
-Notebook #C https://nbviewer.jupyter.org/github/embrace-call-for-code/bias-detection-engine/blob/master/notebooks/judicial_bias.ipynb : BDDE Disparity Detection Demo Code  
+**Notebook #C** https://nbviewer.jupyter.org/github/embrace-call-for-code/bias-detection-engine/blob/master/notebooks/judicial_bias.ipynb : BDDE Disparity Detection Demo Code
+
                      
                      X-X-X-X-X-X-X- NOTE Boz...  put hyperlinks under Noteobook #A and #B and #C  X-X-X-X-X-X-X-
 
 ## 7. Datasets - Data Model Examples and Links to Dataset Notebooks
-The data sets used in our initial analysis were sourced from publically available interactive data found in the United States Sentencing Commission public domain. 
+The data sets used in our initial analysis were sourced from publicly available interactive data found in the United States Sentencing Commission public domain.
 
-**BDDE Dataset #1 - Input to BDDE from Open Sentencing Solutioin Aggregator**
-Bias & Disparity Detection Engine acccepts initial dataset from Open Sentencing Solutioin Aggregator whichi will pass the BDDE the initial dataset describing the defendants' charges, race, gender, and prior history based on data input into the solutions questionnaire by the user Public Defendant or Defense Attorney  
+**BDDE Dataset #1** - Input to BDDE from Open Sentencing Solution Aggregator Bias & Disparity Detection Engine accepts initial dataset from Open Sentencing Solution Aggregator which will pass the BDDE the initial dataset describing the defendants' charges, race, gender, and prior history based on data input into the solutions questionnaire by the user Public Defendant or Defense Attorney  
 
-**BDDE Dataset #2 Notebook  https://github.com/embrace-call-for-code/bias-detection-engine/tree/master/notebooks   : Sentencing Guidelines and actual historical sentencing outcomes**
+**BDDE Dataset #2 Notebook** https://github.com/embrace-call-for-code/bias-detection-engine/tree/master/notebooks : Sentencing Guidelines and actual historical sentencing outcomes
                      
                      X-X-X-X-X-X-X- NOTE Boz...  put hyperlinks under BDE Dataset #2 Notebook  X-X-X-X-X-X-X-
 Data for analysis captured from Federal Sentencing Commission domain to isolate specific actual sentencing deviation fact paterns This dataset capures Federal Sentencing Guidelines and actual historical sentencing outcomes pulled from interactive data accessed via United States Sentencing Commission interactive datasets
@@ -102,18 +101,16 @@ Data for analysis captured from Federal Sentencing Commission domain to isolate 
 - If you plead not guilty, what are your chances of being found guilty vs. innocent
 - If you're found guilty, what are the usual sentences?
 - Strength of evidence?
-- At least from the initial data, victim factors,keywords or tone flags that might indicate bias in the case documents
+- At least from the initial data, victim factors, keywords or tone flags that might indicate bias in the case documents
 - What happens after people serve their sentence? By sentence type. 
 
 **BDDE Dataset #3 Notebook https://github.com/embrace-call-for-code/bias-detection-engine/blob/master/notebooks/weighted_drug_trafficking_data.ipynb   :Simulated historical data to supplement actual historical data collected from US Sentencing Commission**  
-Due to compressed Call for Code timeline, a set of simulated historical datasets were created to reflect trends indicated in smaller amount of actual historical sentencing data captured in Dataset #2 collected from publically available interactive data found on United States Sentencing Commissioni public portal.  This dataset shows a view of simulated data that repliate fact patterns disserned in limited actual historical data collected from United States Sentencing Commission interactive historical outcomes datasets sufficient to  reveal that a large proportion of black defendants are offered and take a plea bargain deal which results in a disportionately negative deviation from the Federal Sentencing Guidelines mid-point.  
+Due to compressed Call for Code timeline, a set of simulated historical datasets were created to reflect trends indicated in smaller amount of actual historical sentencing data captured in Dataset #2 collected from publicly available interactive data found on United States Sentencing Commission public portal. This dataset shows a view of simulated data that replicate fact patterns discerned in limited actual historical data collected from United States Sentencing Commission interactive historical outcomes datasets sufficient to reveal that a large proportion of black defendants are offered and take a plea bargain deal which results in a disproportionately negative deviation from the Federal Sentencing Guidelines mid-point
                      
                      X-X-X-X-X-X-X- NOTE Boz...  put hyperlinks under BDE Dataset #3 Notebook  X-X-X-X-X-X-X-                    
 ![Judicial Bias](/images/Judicial_Bias.png)
 
- 
-
-**BDE Dataset #4 Notebook https://github.com/Call-for-Code-for-Racial-Justice/bias-detection-engine/blob/master/notebooks/open_sentencing_demo.ipynb  :BDDE Data output dashboard analysis results to be passed back to Open Sentencing Solution Aggregrator**
+ **BDE Dataset #4 Notebook https://github.com/Call-for-Code-for-Racial-Justice/bias-detection-engine/blob/master/notebooks/open_sentencing_demo.ipynb  :BDDE Data output dashboard analysis results to be passed back to Open Sentencing Solution Aggregator**
 Critical findings generated by BDDE outputs will be fed back to the Open Sentencing Aggregator via the BDDE API and will provide analytic and contextual insights that include:
 1. \# of similarly charged Sentencing Documents evaluated
 2. % white male vs % black male reflected in the historical pull of Sentencing documents
@@ -125,19 +122,20 @@ Critical findings generated by BDDE outputs will be fed back to the Open Sentenc
 
 ## 8. Technology
 - [AI Fairness 360](https://github.com/Trusted-AI/AIF360).
-- This version of the Bias & Disparity Detection Engine uses a set of python programs with a Flask front end and APIs for organnizations to provide metamodel and instance to be assessed for systemic disparities and biased outcomes.
-- The APIs will enable specification of a steps in a structured process, and to provide sets of data to be a analyzed. Python code is used to generate both unbiased and biased data in order to simulate outcomes for a given metamodel.
-- Additional security controls cna be added to allow organizations to assess only their own data.
-- Hooks are provided into one or more IBM Cloud AI offerings such that unstructured data can be uploaded for analysis using the chosen training method.  This will enable adopters of the code base to provide keys that will enable use of a trial or production version of the AI offering and to provide training.
-- IBM Carbon Framework used with Github Pages (likely Gatsby) to provide content for developers. 
-- Existing python scripts were enhanced to provide general way to identify the set of data with number of steps and the labels for the steps
-- Created a flask application with a front end to give developers specs for metamodel 
-- Jupyter Notebooks and D3 Visualization Library using
+-This version of the Bias & Disparity Detection Engine uses a set of python programs with a Flask front end and APIs for organizations to provide metamodel and instance to be assessed for systemic disparities and biased outcomes.
+-The APIs will enable specification of a steps in a structured process, and to provide sets of data to be a analyzed. Python code is used to generate both unbiased and biased data in order to simulate outcomes for a given metamodel.
+-Additional security controls can be added to allow organizations to assess only their own data.
+-Hooks are provided into one or more IBM Cloud AI offerings such that unstructured data can be uploaded for analysis using the chosen training method. This will enable adopters of the code base to provide keys that will enable use of a trial or production version of the AI offering and to provide training.
+-IBM Carbon Framework used with Github Pages (likely Gatsby) to provide content for developers.
+-Existing python scripts were enhanced to provide general way to identify the set of data with number of steps and the labels for the steps
+-Created a flask application with a front end to give developers specs for metamodel
+-Jupyter Notebooks and D3 Visualization Library using
+
 
 ## 9. Vision 
--  Aditional selected AI Fairness 360 features  may be integrated into the BDDE to provide an automated front end for selected AI Fairness 360 algorithms.  
-- Future version may include privacy preserving features, as well as guidance in Github pages and the readme.  
-- GraphQL for integrating data sets from multiple organizations may also be explored for integration. This likely will be a contributed feature or a different standard or way of providing aggregated queries may be selected. Due to time constraints, IBM Blockchain was not included in this version of BDDE structure but there is vast potential for integrating blockchain
+-Additional selected AI Fairness 360 features may be integrated into the BDDE to provide an automated front end for selected AI Fairness 360 algorithms.
+-Future version may include privacy preserving features, as well as guidance in Github pages and the readme.
+-GraphQL for integrating data sets from multiple organizations may also be explored for integration. This likely will be a contributed feature or a different standard or way of providing aggregated queries may be selected. Due to time constraints, IBM Blockchain was not included in this version of BDDE structure but there is vast potential for integrating blockchain
 
 
 ## 10. Getting Started -
