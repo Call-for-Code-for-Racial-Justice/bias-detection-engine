@@ -51,7 +51,7 @@ Here's how technology can help detect and highlight racial disparities in datase
 
 ![Architecture](/images/Diagram%20%231%20for%20ReadMe%20-%20BDDE%20Architecture%20Data%20Set%20Flow%20-%20Oct%2017.png)
 
-## 4. Functionality - Functionality - How the Bias & Disparity Detection Engine works with the Open Sentencing Solution
+## 4. Functionality - How the Bias & Disparity Detection Engine works with the Open Sentencing Solution
 The Bias & Disparity Detection Engine (BDDE) analyzes available historical data against case specific data provided by the Open Sentencing Public Defender to provide the public defense attorney (user) with insights and bias/disparity indicators for each case. Public Defenders can then act immediately on the insight provided by the BDDE to negotiate a better plea or sentence for the defendant.
 
 The BDDE functional scope as related to an original use case presented by the interfaced Open Sentencing Solution is centered on analysis of one type of Federal Drug Possession / Trafficking charge in order to narrowly demonstrate functionality that may be later used to analyze a broader set of charges and jurisdictions.
