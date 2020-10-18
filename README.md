@@ -114,8 +114,9 @@ Data for analysis captured from Federal Sentencing Commission domain to isolate 
 - What happens after people serve their sentence? By sentence type. 
 
 **BDDE Dataset #3 Notebook https://github.com/embrace-call-for-code/bias-detection-engine/blob/master/notebooks/weighted_drug_trafficking_data.ipynb   :Simulated historical data to supplement actual historical data collected from US Sentencing Commission**  
-Due to compressed Call for Code timeline, a set of simulated historical datasets were created to reflect trends indicated in smaller amount of actual historical sentencing data captured in Dataset #2 collected from publically available interactive data found on United States Sentencing Commissioni public portal.  This dataset shows a view of simulated data that repliate fact patterns disserned in limited actual historical data collected from United States Sentencing Commission interactive historical outcomes datasets sufficient to  reveal that a large proportion of black defendants are offered and take a plea bargain deal which results in a disportionately negative deviation from the Federal Sentencing Guidelines mid-point.                    
-                     X-X-X-X-X-X-X- NOTE Boz...  put hyperlink under BDDE Dataser #3 NOtnebook  X-X-X-X-X-X-X-
+Due to compressed Call for Code timeline, a set of simulated historical datasets were created to reflect trends indicated in smaller amount of actual historical sentencing data captured in Dataset #2 collected from publically available interactive data found on United States Sentencing Commissioni public portal.  This dataset shows a view of simulated data that repliate fact patterns disserned in limited actual historical data collected from United States Sentencing Commission interactive historical outcomes datasets sufficient to  reveal that a large proportion of black defendants are offered and take a plea bargain deal which results in a disportionately negative deviation from the Federal Sentencing Guidelines mid-point.  
+                     
+                     X-X-X-X-X-X-X- NOTE Boz...  put hyperlinks under BDE Dataset #3 Notebook  X-X-X-X-X-X-X-                    
 ![Judicial Bias](/images/Judicial_Bias.png)
 
  
