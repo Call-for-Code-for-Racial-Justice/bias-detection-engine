@@ -132,29 +132,21 @@ Due to compressed Call for Code timeline, a set of simulated historical datasets
                      X-X-X-X-X-X-X- NOTE Boz...  put hyperlinks under BDE Dataset #4 Notebook  X-X-X-X-X-X-X-
 
 ## 8. Technology
-Main Code for BDDE for Open Sentencing Solution is located here
-XXXXX  John / Box... please add link here ----  https://github.com/Call-for-Code-for-Racial-Justice/bias-detection-engine/blob/master/server/routes/engine.py
-
-- For initial version, we are creating a set of python programs with a Flask front end and APIs for organnizations to provide metamodel and instance to be assessed for systemic disparities and biased outcomes.
-- The APIs will enable specification of a steps in a structured process, and to provide sets of data to be analyzed.  We also currently provide python code to generate both unbiased and biased data in order to simulate outcomes for a given metamodel.
-- We will add additional security controls to allow organizations to assess only their own data.
-- We will provide hooks into one or more IBM Cloud AI offerings such that unstructured data can be uploaded for analysis using the chosen training method.  This will enable adopters of the code base to provide keys that will enable use of a trial or production version of the AI offering and to provide training.
-- We will use IBM Carbon Framework with Github Pages (likely Gatsby) to provide content for developers.  (we will edit this statement to update what has been completed during the fortification period).
-- Enhance the existing python scripts so we have a general way to identify the set of data with number of steps and the labels for the steps
-- Create a flask application with a front end so we can give developers specs for their metamodel (list of name value pairs)
+- This version of the Bias & Disparity Detection Engine uses a set of python programs with a Flask front end and APIs for organnizations to provide metamodel and instance to be assessed for systemic disparities and biased outcomes.
+- The APIs will enable specification of a steps in a structured process, and to provide sets of data to be a analyzed. Python code is used to generate both unbiased and biased data in order to simulate outcomes for a given metamodel.
+- Additional security controls cna be added to allow organizations to assess only their own data.
+- Hooks are provided into one or more IBM Cloud AI offerings such that unstructured data can be uploaded for analysis using the chosen training method.  This will enable adopters of the code base to provide keys that will enable use of a trial or production version of the AI offering and to provide training.
+- IBM Carbon Framework used with Github Pages (likely Gatsby) to provide content for developers. 
+- Existing python scripts were enhanced to provide general way to identify the set of data with number of steps and the labels for the steps
+- Created a flask application with a front end to give developers specs for metamodel 
 - Jupyter Notebooks and D3 Visualization Library using
 
-## 9. Vision - Fully Scaled IBM Disparity Detection and Bias Diagnostics Engine
-- IBM Cloud will play a prominent role in our solution, though we will use Openshift to ensure multi-cloud capability. IBM Data and AI capabilities such as natural language understanding, geospatial analysis, and big data analytics will play a critical role in an overall solution to end systemic racism. By providing bindings into key IBM cloud capabilities like machine learning, we will be able to analyze structured data in any sequential pipeline or funnel affecting black lives, identifying key areas of disparity for each step, end to end. Moreover, we will provide a solution to collect and bind semi-structured and unstructured text associated with any step in a structured process we analyze. Using IBM storage and database technology, we will be able to accept and federate large data volumes in a secure fashion and perform any and all forms of analysis that might be required to analyze that process. IBM data analysis capabilities will then position users to analyze relationships among pipelines, quantifying their cumulative effect in distilling and amplifying systemic racism and its impact on the lives experience of black persons. We have established relationships with advanced practitioners who would be interested in approaching this topic of mathematically quantifying racial bias from an AI Big Data and quantification perspective.
+## 9. Vision 
+- [AI Fairness 360](https://github.com/Trusted-AI/AIF360). As a stretch goal, during the fortification period, we will add selected features to provide an automated front end for selected AI Fairness 360 algorithms.  
 
-- [AI Fairness 360](https://github.com/Trusted-AI/AIF360). As a stretch goal, during the fortification period, we will add selected features to provide an automated front end for selected AI Fairness 360 algorithms.  Alternatively, on the advice of the CFC Core Team, DE's, and IBM Fairness 360 owners, we may receive data and process it to allow for Fairness 360 to use existing APIs and data access methods.
-
-- We will include privacy preserving features, as well as guidance in Github pages and the readme.  
-Depending on legal review, we may offer a license for contributed data to be provided to peer organizations to allow for benchmarking, for example across an industry or profession.
+- Future version mAY include privacy preserving features, as well as guidance in Github pages and the readme.  
 
 - We will explore GraphQL for integrating data sets from multiple organizations. This likely will be a contributed feature or we may choose a different standard or way of providing aggregated queries. Due to time constraints, we omitted IBM Blockchain from this solution, but we see vast potential for integrating blockchain with this solution. We are exploring these options with technical leaders in IBM Research and the IBM Blockchain business unit.
-
-- We intend to create the basis to measure racial disparity and diagnosis when, where and how racial bias contributes to those disparities. This detection and diagnostics capability can be applied to structured processes relevant to full range of processes currently plagued by effects of Systemic Racism worldwide including hiring & promotion processes, education and school application screening and testing processes, home loans, business loans, professional certifications, civil reforms, and policing and criminal justice reforms.  This will better position organizations that currently exhibit or pass through systemic racism to remedy their processes and  hold themselves and their peers accountable for making tangible progress toward eliminating the effects of systemic racism. Each of these processes currently takes racially flawed input, and in almost all cases does not improve substantially on those inputs when the processes are complete. The organizations who own those processes often assert that their processes are unbiased or neutral; they blame their disparate outcomes on disparate inputs inherited from other processes. This is a central defining feature of systemic racism. Using open source and the unique abilities of IBM data and AI, we will provide the basis for owners of these processes and these stakeholder to identify specific areas of greatest systemic disparity, to define experiments and remediations to address those disparities, and to demonstrate tangible progress.
 
 ## Future state of the engine will also fully integrate the following technologies
 - Blockchain to establish consensus about data sharing
