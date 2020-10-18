@@ -71,14 +71,11 @@ The BDDE will have a cloud-based API that will receive a single case specific da
 ## 6. Prototype - Working Code Notebooks
 Initial data science exploratory Jupyter notebooks are available and show structure and analysis protocols used for gathering and analyzing publicly accessed and simulated Federal Sentencing Guidelines and sentencing outcomes data sets
 
-**Notebook #A** https://github.com/Call-for-Code-for-Racial-Justice/bias-detection-engine/blob/master/server/routes/engine.py : BDDE prototype master code outline 
+**Notebook #A** BDDE prototype [code outline](https://github.com/Call-for-Code-for-Racial-Justice/bias-detection-engine/blob/master/server/routes/engine.py)
 
-**Notebook #B** https://github.com/Call-for-Code-for-Racial-Justice/bias-detection-engine/blob/master/notebooks/open_sentencing_demo.ipynb : BDDE Master Data analysis code
+**Notebook #B** BDDE [data analysis code](https://github.com/Call-for-Code-for-Racial-Justice/bias-detection-engine/blob/master/notebooks/open_sentencing_demo.ipynb)
 
-**Notebook #C** https://nbviewer.jupyter.org/github/embrace-call-for-code/bias-detection-engine/blob/master/notebooks/judicial_bias.ipynb : BDDE Disparity Detection Demo Code
-
-                     
-                     X-X-X-X-X-X-X- NOTE Boz...  put hyperlinks under Noteobook #A and #B and #C  X-X-X-X-X-X-X-
+**Notebook #C** BDDE [Disparity Detection demo dode](https://nbviewer.jupyter.org/github/embrace-call-for-code/bias-detection-engine/blob/master/notebooks/judicial_bias.ipynb) 
 
 ## 7. Datasets - Data Model Examples and Links to Dataset Notebooks
 The data sets used in our initial analysis were sourced from publicly available interactive data found in the United States Sentencing Commission public domain.
