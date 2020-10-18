@@ -65,7 +65,7 @@ The BDDE will have a cloud-based API that will receive a single case specific da
 ![Architecture](/images/BDDE%20Sample%20Input%20-%20Output%20REPORT%20-%20Oct%2017%20%20.png)
 
 ## 5. Architecture -  Bias & Disparity Detection Engine Process Flow
-![Architecture](/images/Open%20Sentencing%20Architecture%20Process%20Flow%20-%20Oct%2017.png)
+![Process Flow](/images/Open%20Sentencing%20Architecture%20Process%20Flow%20-%20Oct%2017.png)
 
 
 ## 6. Prototype - Working Code Notebooks
