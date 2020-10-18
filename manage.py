@@ -2,7 +2,7 @@ import os, sys, argparse, subprocess, signal
 
 # Project defaults
 FLASK_APP = 'server/__init__.py'
-DEFAULT_IP = '0.0.0.0:3000'
+DEFAULT_IP = '0.0.0.0:5000'
 
 class Command:
 	def __init__(self, name, descr, runcmd, env={}):
@@ -105,9 +105,9 @@ def livereload_check():
 		os.kill(pypid, signal.SIGKILL)
 		print("Discovered rogue Python process: {0}".format(pypid))
 		print("Killing PID {0}...".format(pypid))
-	else: 
+	else:
 		print(" No rogue Python process running")
-		
+
 # Take in command line input for configuration
 try:
 	args = parser.parse_args()
