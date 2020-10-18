@@ -79,10 +79,11 @@ Critical findings in the BDDE outputs will be fed back to the Open Sentencing Ag
 
 ## 6. Prototype - Working Code
 
-Initial data science exploratory Jupyter notebooks are available and show analyze of simulated Federal Sentencing Outcomes data sets as comopared to Federal Sentencing Guidelines. [here.](/notebooks)
+Initial data science exploratory Jupyter notebooks are available and show structure and analysis protocols used for gathering and analyzing publiclly accesed and simulated Federal Sentencing Guidelies and sentencing outcomes data sets
 
-Notebook #1 shows actual Federal judicial sentencing hostorical datasets and describes the disparity in historical outcomes by race and gender. 
-[Judicial Bias Notebook](/notebooks/judicial_bias.ipynb) - 
+Nobebook #1 shows datasets reflecting Federal Sentencing Guidelines and actual historical sentencing outcomes pulled from interactive data accessed via United States Sentencing Commission interactive datasets
+             X-X-X-X-X-X-X- NOTE Boz...  place below URL as hyperlink under Notebook #1    X-X-X-X-X-X-X-
+https://github.com/Call-for-Code-for-Racial-Justice/bias-detection-engine/blob/master/server/routes/engine.py 
 
 Notebook #2 shows a view of simulated data fact patterns that reveal that a large proportion of black defendants are offered and take a plea bargain deal which results in a disportionately negative deviation from the Federal Sentencing Guidelines mid-point.
 ![Judicial Bias](/images/Judicial_Bias.png)
