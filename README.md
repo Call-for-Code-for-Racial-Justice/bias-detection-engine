@@ -1,5 +1,5 @@
 # Bias & Disparity Detection Engine
-(for analysis of Federal US Sentencing Comission Datasets only)
+(for analysis of Federal US Sentencing Commission Datasets only)
 
 This solution starter was created by technologists from IBM.
 
