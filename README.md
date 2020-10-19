@@ -7,7 +7,7 @@ This solution starter was created by technologists from IBM.
 
 1. [The Team](#1-team)
 2. [Overview](#2-overview---bias--disparity-detection-engine-bdde-for-open-sentencing-solution-federal-us-sentencing-commission-data-sets-only)
-3. [The idea](#3-whats-the-idea-behind-the-bias--disparity-detection-engine)
+3. [The Idea](#3-whats-the-idea-behind-the-bias--disparity-detection-engine)
 4. [Functionality](#4-functionality---how-the-bias--disparity-detection-engine-works-with-the-open-sentencing-solution)
 5. [Architecture](#5-architecture----bias--disparity-detection-engine-process-flow)
 6. [Prototype-Working Code](#6-prototype---working-code-notebooks)
