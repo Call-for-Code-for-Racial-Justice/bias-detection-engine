@@ -3,7 +3,7 @@
 
 This solution starter was created by technologists from IBM.
 
-## Table of Content
+## Table of Contents
 
 1. [The Team](#1-team)
 2. [Overview](#2-overview---bias--disparity-detection-engine-bdde-for-open-sentencing-solution-federal-us-sentencing-commission-data-sets-only)
