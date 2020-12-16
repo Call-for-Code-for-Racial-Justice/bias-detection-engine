@@ -32,7 +32,7 @@ This solution starter was created by technologists from IBM.
 * Otis Smart PhD - AI Data Scientist - Machine Learning
 
 ## 2. Overview - Bias & Disparity Detection Engine (BDDE) for Open Sentencing Solution Federal US Sentencing Commission Data Sets Only
-The Bias & Disparity Detection Engine (BDDE) will be powered by IBM’s AI Fairness 360 functionality, refined to specifically isolate disparity in Federal sentencing outcomes of Black vs. White defendants. The BDDE assesses disparity by comparing the average months of incarceration, prescribed in Federal Sentencing Guidelines, against a historical profile of actual sentences for similar Federal charges, aggregated by racial demographics
+The Bias & Disparity Detection Engine (BDDE) will be powered by IBM’s AI Fairness 360 functionality, refined to specifically isolate disparity in Federal sentencing outcomes of Black vs. White defendants. The BDDE assesses disparity by comparing the average months of incarceration, prescribed in Federal Sentencing Guidelines, against a historical profile of actual sentences for similar Federal charges, aggregated by racial demographics.
 
 
 ### Problem Statement - Why deployment of this type of disparity detection technology is critical
