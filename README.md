@@ -32,19 +32,18 @@ This solution starter was created by technologists from IBM.
 * Otis Smart PhD - AI Data Scientist - Machine Learning
 
 ## 2. Overview - Bias & Disparity Detection Engine (BDDE) for Open Sentencing Solution Federal US Sentencing Commission Data Sets Only
-The Bias & Disparity Detection Engine (BDDE) will be powered by IBM’s AI Fairness 360 sourced functionality refined to specifically isolate disparity in Federal sentencing outcomes of black vs white defendants
--The BDDE accesses disparity by comparing the average months of incarceration prescribed in Federal Sentencing Guidelines against a historical profile of actual sentences for similar Federal charges aggregated by racial demographics
+The Bias & Disparity Detection Engine (BDDE) will be powered by IBM’s AI Fairness 360 functionality, refined to specifically isolate disparity in Federal sentencing outcomes of Black vs. White defendants. The BDDE assesses disparity by comparing the average months of incarceration, prescribed in Federal Sentencing Guidelines, against a historical profile of actual sentences for similar Federal charges, aggregated by racial demographics.
 
 
-### Problem Statement - Why deployment of this type of disparity detection technology is a so critical
-A new class of  “Tech for Good" solutions, apps and platforms will strive to inform outcomes that can be quantifiably assessed and validated as not influenced by factors of racial bias and disparity.
+### Problem Statement - Why deployment of this type of disparity detection technology is critical
+A new class of  “Tech for Good" solutions, apps and platforms will strive to inform outcomes that can be quantifiably assessed, and be validated as free of racial bias and disparity.
 
 1.	This new class of solutions prioritizes the minimization of outcomes infected by implicit racial bias and replicated disparities. Such solutions will need leading edge technology and newly developed interface protocols to effectively serve as credible arbiters of bias and other discriminatory variables.
 
-2.	Without validated and benchmarked models for consistent attribution of implicit racial bias, solutions like CFCFRJ Open Sentencing might have diminished ability to deliver the insight and outcomes users need in order to minimize the impact of disparity and bias in outcomes for their clients.
-    *	A random / one-off approach to detecting racial bias and disparity in processes and algorithms will not be sufficient for solutions like Open Sentencing and may lead to ethics exposures related to how the science of bias detection is applied in solution specific scenarios
+2.	Without validated and benchmarked models for consistent attribution of implicit racial bias, solutions like CFCFRJ Open Sentencing could not deliver the insight and outcomes users need in order to minimize the impact of disparity and bias on outcomes for their clients.
+    *	A random / one-off approach to detecting racial bias and disparity in processes and algorithms will not be sufficient for solutions like Open Sentencing, and may lead to ethics exposures related to how the science of bias detection is applied in solution-specific scenarios
 
-3. These problems are hardened by fact that many bodies of authority may continue to deny the existence of implicit bias and Systemic Racism. Therefore, mathematically grounded technology like that presented with the Bias and Disparity Detection Engine will be extremely critical to ensure proper progress can be made in efforts to address societal and structural factors that lend themselves to racially biased outcomes.
+3. These problems are made more difficult by the fact that some bodies of authority continue to deny the existence of implicit bias and systemic racism. Therefore, mathematically grounded technology, such as that presented by the Bias and Disparity Detection Engine, will be critical to ensuring that proper progress can be made in efforts to address societal and structural factors that contribute to racially biased outcomes.
 
 ## 3. The ideas behind the Bias & Disparity Detection Engine
 This technology can detect and highlight racial disparities in datasets related to the Call for Code Open Sentencing Solution process pipeline.
