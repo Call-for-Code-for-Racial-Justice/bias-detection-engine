@@ -46,21 +46,21 @@ A new class of  “Tech for Good" solutions, apps and platforms will strive to i
 
 3. These problems are hardened by fact that many bodies of authority may continue to deny the existence of implicit bias and Systemic Racism. Therefore, mathematically grounded technology like that presented with the Bias and Disparity Detection Engine will be extremely critical to ensure proper progress can be made in efforts to address societal and structural factors that lend themselves to racially biased outcomes.
 
-## 3. What's the Idea behind the Bias & Disparity Detection Engine
-Here's how technology can help detect and highlight racial disparities in datasets related to the Call for Code Open Sentencing Solution process pipeline
+## 3. The ideas behind the Bias & Disparity Detection Engine
+This technology can detect and highlight racial disparities in datasets related to the Call for Code Open Sentencing Solution process pipeline.
 
 ![Architecture](/images/Diagram%20%231%20for%20ReadMe%20-%20BDDE%20Architecture%20Data%20Set%20Flow%20-%20Oct%2017.png)
 
 ## 4. Functionality - How the Bias & Disparity Detection Engine works with the Open Sentencing Solution
-The Bias & Disparity Detection Engine (BDDE) analyzes available historical data against case specific data provided by the Open Sentencing Public Defender to provide the public defense attorney (user) with insights and bias/disparity indicators for each case. Public Defenders can then act immediately on the insight provided by the BDDE to negotiate a better plea or sentence for the defendant.
+The Bias & Disparity Detection Engine (BDDE) analyzes available historical data against case specific data, provided by the Open Sentencing Public Defender, to give the public defense attorney (user) insights and bias/disparity indicators for each case. Public Defenders can then act immediately on the insight provided by the BDDE to negotiate a better plea or sentence for the defendant.
 
-The BDDE functional scope as related to an original use case presented by the interfaced Open Sentencing Solution is centered on analysis of one type of Federal Drug Possession / Trafficking charge in order to narrowly demonstrate functionality that may be later used to analyze a broader set of charges and jurisdictions.
+The BDDE functional scope, as related to an original use case presented by the interfaced Open Sentencing Solution, is centered on analysis of one type of Federal Drug Possession / Trafficking charge. This restricted scope narrowly demonstrates functionality that may later be used to analyze a broader set of charges and jurisdictions.
 
-By leveraging existing and enhanced IBM technologies like AI Fairness 360 and Big Data Analytics, the BDDE will provide benchmarked hardened data analysis protocols detecting disparity by isolating deviations in how Federal Sentencing Guidelines are applied in final sentencing outcomes based on aggregation of historical sentencing outcomes by race.
+By leveraging existing and enhanced IBM technologies, such as AI Fairness 360 and Big Data Analytics, the BDDE will provide benchmarked hardened data analysis protocols. The protocols will detect disparity by isolating deviations in how Federal Sentencing Guidelines are applied in final sentencing outcomes, based on aggregation of historical sentencing outcomes by race.
 
 
 ### Use Case Proof Points
-The BDDE will have a cloud-based API that will receive a single case specific dataset from the Open Sentencing Solution Aggregator in order to determine which Federal Sentencing Guidelines should be applied as relevant for the defendant being charged. The BDDE then compares the appropriate Federal Sentencing Guidelines midpoint against historical outcomes of similarly charged defendants. Success is achieved when the BDDE detects / isolates the positive or negative deviations (in number of months) historically applied in actual sentencing outcomes in that jurisdiction and passes the results of that analysis back to the Open Sentencing Solution Aggregator for presentation to the Public Defender via the solution's Report Generator.
+The BDDE will have a cloud-based API that will receive a single, case-specific dataset from the Open Sentencing Solution Aggregator, to determine which Federal Sentencing Guidelines might be relevant for the defendant being charged. The BDDE then compares the appropriate Federal Sentencing Guidelines midpoint against historical outcomes of similarly charged defendants. Success is achieved when the BDDE detects / isolates deviations (in number of months) historically applied in actual sentencing outcomes in that jurisdiction. BDDE then passes the results of that analysis back to the Open Sentencing Solution Aggregator, for presentation to the Public Defender via the solution's Report Generator.
 
 ![Architecture](/images/BDDE%20Sample%20Input%20-%20Output%20REPORT%20-%20Oct%2017%20%20.png)
 
